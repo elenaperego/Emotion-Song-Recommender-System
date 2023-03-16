@@ -5,9 +5,6 @@ import time
 import get_songs
 import user_recognition
 
-# TODO check tempo
-# TODO check user identification
-
 moods = {'Sad': 0, 'Calm': 1, 'Energetic': 2, 'Happy': 3}
 
 # Ele's client ID
@@ -25,25 +22,15 @@ preferences = {'Mischa': ['rock', 'pop', 'classical'],
                'Meli': ['techno', 'latin', 'jazz'],
                'Lena': ['alternative', 'rap', 'pop']}
 
-cam_img_name = "/database/current_user.jpg"
-img_paths = user_recognition.get_all_image_paths()
-user_name = 'Mischa'    # todo change to ''
 
 cam = cv2.VideoCapture(0)
 time.sleep(3)
 _, image = cam.read()
 cam.release()
 
-# todo
-user_recognition.save_img(image, cam_img_name)
-# todo
-#for img in img_paths:
-   # r = DeepFace.find(img_path = "current_user.jpg", db_path = os.getcwd()+"/database")
-   # print(r)
-   # todo result = DeepFace.verify(img1_path=cam_img_name, img2_path=img)
-
-  # todo  if result :     # check if this is boolean
-  #      user_name = (result.split("."))[0]
+# user identification
+cam_path = "/database/current_user.png"
+user_name = user_recognition.get_user_name(image, cam_path)
 
 
 while True:
@@ -84,6 +71,4 @@ while True:
     cur_song_name = song_rec.loc['name']
     print(cur_song_name)
 
-    # TODO (MELI / ALL): Play song 
-
-
+    # TODO (MELI / ALL): Play song

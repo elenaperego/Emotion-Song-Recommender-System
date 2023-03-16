@@ -91,4 +91,3 @@ sp = authenticate(client_id, client_secret)
 songs = get_songs(sp, 100, get_playlist_URI(sp, 'rock'))
 data = create_table_songs(sp, songs)
 data.to_csv('happySongs.csv')
-cur_tempo = data.loc[0, 'tempo']
