@@ -16,3 +16,14 @@ TODO:
 5) filter on average emotion: input = list of songs matching preferences + average emotion, output = list of songs matching preferences and emotion (INCLUDES: model to classify songs based on emotion https://medium.com/codex/music-mood-classification-using-neural-networks-and-spotifys-web-api-d73b391044a4)) (ELE and MISCHA)
 6) filter on tempo: input = list of songs matching preferences and emotion + current song, output = song matching preferences, emotion, and tempo (LOU)
 7) play next song (same as 3): input = song matching preferences, emotion, and tempo, output = playing song (MELI)
+
+
+RESOURCES: 
+Music Classification:
+- https://sites.tufts.edu/eeseniordesignhandbook/2015/music-mood-classification/
+- https://towardsdatascience.com/predicting-the-music-mood-of-a-song-with-deep-learning-c3ac2b45229e
+- https://medium.com/codex/music-mood-classification-using-neural-networks-and-spotifys-web-api-d73b391044a4
+- https://neokt.github.io/projects/audio-music-mood-classification/
+- https://github.com/kvsingh/music-mood-classification
+- https://github.com/cristobalvch/Spotify-Machine-Learning
+
