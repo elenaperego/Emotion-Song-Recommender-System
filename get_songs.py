@@ -1,11 +1,13 @@
+import random
+
 import pandas as pd
 import spotipy
 from spotipy.oauth2 import SpotifyClientCredentials
 
-
-#Mischa's client ID
+# Mischa's client ID
 client_id = '7b663f1643884fd49c296fc676166325'
 client_secret = '3e59e5cc8962431ab6127d10e5731f96'
+
 
 def authenticate(client_id, client_secret):
     auth_manager = SpotifyClientCredentials(client_id=client_id, client_secret=client_secret)
@@ -58,8 +60,35 @@ def create_table_songs(sp, songs):
     return pd.DataFrame(tracks, columns=columns)
 
 
+"""
+input: df of songs matching users emotion
+output: next song recommendation (including all features), based on tempo of current song and all next 
+"""
+def filter_closest_tempo(df_songs, cur_song):
+    # no song is playing yet
+    if cur_song is None:
+        best_rec = df_songs
+    # choose next song
+    else:
+        pl_df_songs = df_songs.copy()  # deep copy of df
+        # calculate MAE of possible next song and current one
+        pl_df_songs['absolut_tempo_error'] = abs(pl_df_songs['tempo'] - cur_song.loc['tempo'])
+        pl_df_songs.sort_values(by=['absolut_tempo_error'], inplace=True)
+
+        # get top 10% of songs
+        ind = int(len(pl_df_songs) * 0.1)
+        best_rec = pl_df_songs[:ind]
+
+    # randomly select one of the top songs
+    ind = random.randint(0, len(best_rec))
+    next_song = best_rec.iloc[ind]
+
+    return next_song
+
+
 # test
 sp = authenticate(client_id, client_secret)
-songs = get_songs(sp, 100, get_playlist_URI(sp, 'very sad'))
+songs = get_songs(sp, 100, get_playlist_URI(sp, 'rock'))
 data = create_table_songs(sp, songs)
-data.to_csv('very_sadSongs.csv')
+data.to_csv('happySongs.csv')
+cur_tempo = data.loc[0, 'tempo']
