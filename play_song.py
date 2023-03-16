@@ -31,8 +31,8 @@ authentication = spotipy.Spotify(
 )
 
 
-artist = "Radiohead"
-track = "No Surprises"
+artist = "Elijah Waters"
+track = "Someone Special"
 play_song(artist, track, authentication)
 
 

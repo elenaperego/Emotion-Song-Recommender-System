@@ -72,6 +72,6 @@ def authenticate(client_id, client_secret):
 
 sp = authenticate(CLIENT_ID, CLIENT_SECRET)
 
-x = requests.put(url, headers= headers, json = myobj)
+x = requests.post(url, headers= headers, json = myobj)
 
-print(x.text)
+print("X ",x.text)
