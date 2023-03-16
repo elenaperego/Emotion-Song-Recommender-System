@@ -2,13 +2,10 @@ import pandas as pd
 import spotipy
 from spotipy.oauth2 import SpotifyClientCredentials
 
-# Ele's client ID
-client_id = '6e1a09c940a943da95144c6f49a0717b'
-client_secret = 'ccc2af43075641f9899eaaac5b716b8b'
 
 #Mischa's client ID
-#client_id = '7b663f1643884fd49c296fc676166325'
-#client_secret = '3e59e5cc8962431ab6127d10e5731f96'
+client_id = '7b663f1643884fd49c296fc676166325'
+client_secret = '3e59e5cc8962431ab6127d10e5731f96'
 
 def authenticate(client_id, client_secret):
     auth_manager = SpotifyClientCredentials(client_id=client_id, client_secret=client_secret)
@@ -63,6 +60,6 @@ def create_table_songs(sp, songs):
 
 # test
 sp = authenticate(client_id, client_secret)
-songs = get_songs(sp, 100, get_playlist_URI(sp, 'sad'))
+songs = get_songs(sp, 100, get_playlist_URI(sp, 'very sad'))
 data = create_table_songs(sp, songs)
-data.to_csv('sadSongs.csv')
+data.to_csv('very_sadSongs.csv')
