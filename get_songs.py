@@ -59,7 +59,7 @@ def create_table_songs(sp, songs):
 
 
 # test
-sp = authenticate(client_id, client_secret)
-songs = get_songs(sp, 100, get_playlist_URI(sp, 'very sad'))
-data = create_table_songs(sp, songs)
-data.to_csv('very_sadSongs.csv')
+#sp = authenticate(client_id, client_secret)
+#songs = get_songs(sp, 100, get_playlist_URI(sp, 'very sad'))
+#data = create_table_songs(sp, songs)
+#data.to_csv('test.csv')
