@@ -91,7 +91,3 @@ def filter_closest_tempo(df_songs, cur_song):
 #songs = get_songs(sp, 100, get_playlist_URI(sp, 'very sad'))
 #data = create_table_songs(sp, songs)
 #data.to_csv('test.csv')
-sp = authenticate(client_id, client_secret)
-songs = get_songs(sp, 100, get_playlist_URI(sp, 'rock'))
-data = create_table_songs(sp, songs)
-data.to_csv('happySongs.csv')

@@ -2,14 +2,11 @@ import os
 import numpy as np
 from deepface import DeepFace
 import cv2
-import time
-import get_songs
-import user_recognition
-
-moods = {'Sad': 0, 'Calm': 1, 'Energetic': 2, 'Happy': 3}
 import get_songs as gs
 import time
 import models.load_model as model_library
+import user_recognition
+
 
 # Ele's client ID
 CLIENT_ID = '6e1a09c940a943da95144c6f49a0717b'
@@ -28,6 +25,11 @@ def highest_occurrence(strings):
 
 # TODO: MOVE ALL THE STUFF THAT IS NOT GLOBAL VARIABLES TO MAIN METHOD
 moods= {'Sad' : 0, 'Calm' : 1, 'Energetic' : 2, 'Happy' : 3}
+
+allowed_margin_to_change_song = 20 # amount in seconds
+
+# --> Sad' : 0, 'Calm' : 1, 'Energetic' : 2, 'Happy' : 3
+emotion_to_binary = { 'angry' : 0, 'disgust' : 2, 'fear' : 1, 'happy' : 3, 'sad' : 0, 'surprise' : 2, 'neutral' : 1}
 current_dominant_emotion = []
 current_emotion = []
 current_song = None
@@ -43,18 +45,12 @@ time.sleep(3)
 _, image = cam.read()
 cam.release()
 
+# TODO (LOU): Identify person 
 # user identification
 cam_path = "/database/current_user.png"
 user_name = user_recognition.get_user_name(image, cam_path)
 
-# TODO (LOU): Identify person 
-#cam = cv2.VideoCapture(0)
-#time.sleep(3)
-#_, image = cam.read()
-#cam.release()
-#print("GOT HERE")
-# for image in database:
-#    DeepFace.verify(database_image, image)
+# TODO: Get random song from preference list of user
 
 # Get random song
 songs = gs.get_songs(sp, 100, gs.get_playlist_URI(sp, mischasPreference[0]))
@@ -87,19 +83,6 @@ if __name__ == "__main__":
         # TODO (MISCHA): refactor the current emotion to our available list --> Sad' : 0, 'Calm' : 1, 'Energetic' : 2, 'Happy' : 3
         #current_dominant_emotion.append(data[0].get('dominant_emotion'))
         #current_emotion.append(data[0].get('emotion'))
-while True:
-    cam = cv2.VideoCapture(0)
-    # wait to get enough light for image
-    time.sleep(3)
-    _, image = cam.read()
-    cam.release()
-    data = DeepFace.analyze(image)
-
-    # --> dict_keys(['emotion', 'dominant_emotion', 'region', 'age', 'gender', 'dominant_gender', 'race', 'dominant_race'])
-    print(data[0].get('dominant_emotion'))
-    # TODO (MISCHA): refactor the current emotion to our available list --> Sad' : 0, 'Calm' : 1, 'Energetic' : 2, 'Happy' : 3
-    current_dominant_emotion.append(data[0].get('dominant_emotion'))
-    current_emotion.append(data[0].get('emotion'))
 
         if (elapsed_time > length_song - allowed_margin_to_change_song):
 
@@ -113,36 +96,33 @@ while True:
             #songs.append(gs.get_songs(sp, 100, gs.get_playlist_URI(sp, mischasPreference[2])))
             data = gs.create_table_songs(sp, songs)
             print("EMOTION ",emotion)
+    
+
+            songs = []
+            # get songs based on preference
+            for p in preferences.get(user_name):
+                songs.extend(gs.get_songs(sp, 100, gs.get_playlist_URI(sp, p)))
+
+            data = gs.create_table_songs(sp, songs)
 
             # TODO (MISCHA): Classify on emotion with model (NN or RF) taking into account the current dominant emotion
-            # TODO (MISCHA): Play around with NN
+            # TODO (MISCHA): Play around with NN 
             # returns a df of songs matching the two possible emotion
             filtered_data = model_library.predict_emotions_rf(data,binary_emotion)
-            
 
-    songs = []
-    # get songs based on preference
-    for p in preferences.get(user_name):
-        songs.extend(get_songs.get_songs(sp, 100, get_songs.get_playlist_URI(sp, p)))
-
-    data = get_songs.create_table_songs(sp, songs)
-
-    # TODO (MISCHA): Classify on emotion with model (NN or RF) taking into account the current dominant emotion
-    # TODO (MISCHA): Play around with NN 
-    # returns a df of songs matching the two possible emotion
 
             # TODO (ELENA): Filter/Order on sad or calm = speechiness --> high speechiness = sad, energetic and happy = loudness --> high loudness = energetic
             # IF time: filter songs based on realeased date matching with the age of the user
             # returns data in a df of songs matching emotion with a filter of < 0.5 based on the emotion
 
-    song_rec = get_songs.filter_closest_tempo(data, current_song)
-    current_song = song_rec
-    cur_song_name = song_rec.loc['name']
-    print(cur_song_name)
+
             # TODO (LOOU): Tempo: create a new column (absolut_tempo_error) where the previous tempo .... you will figure it out
             # returns one song
+            song_rec = gs.filter_closest_tempo(data, current_song)
+            current_song = song_rec
+            cur_song_name = song_rec.loc['name']
+            print(cur_song_name)
 
-            # TODO (MELI / ALL): Play song
 
             # After new song starts playing, we update all time variables
             # TODO: update the database  --> current_song =
