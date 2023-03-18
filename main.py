@@ -4,6 +4,7 @@ import cv2
 import time
 import get_songs
 import time
+from sklearn.preprocessing import StandardScaler
 
 # Ele's client ID
 CLIENT_ID = '6e1a09c940a943da95144c6f49a0717b'
@@ -19,6 +20,19 @@ def highest_occurrence(strings):
             occurrences[string] = 1
     return max(occurrences, key=occurrences.get)
 
+def filter_emotion(data, emotion):
+    scaler = StandardScaler()
+    scaler.fit(data[['speechiness', 'loudness']])
+    data[['speechiness', 'loudness']] = scaler.transform(data[['speechiness', 'loudness']])
+    if emotion == 'Sad':
+        data = data[data['speechiness'] > 0.5]
+    elif emotion == 'Calm':
+        data = data[data['speechiness'] < 0.5]
+    elif emotion == 'Happy':
+        data = data[data['loudness'] < 0.5]
+    else:
+        data = data[data['loudness'] > 0.5]
+    return data
 
 # TODO: MOVE ALL THE STUFF THAT IS NOT GLOBAL VARIABLES TO MAIN METHOD
 moods= {'Sad' : 0, 'Calm' : 1, 'Energetic' : 2, 'Happy' : 3}
@@ -82,6 +96,7 @@ if __name__ == "__main__":
             # TODO (ELENA): Filter/Order on sad or calm = speechiness --> high speechiness = sad, energetic and happy = loudness --> high loudness = energetic
             # IF time: filter songs based on realeased date matching with the age of the user
             # returns data in a df of songs matching emotion with a filter of < 0.5 based on the emotion
+            data = filter_emotion(data, current_emotion)
 
             # TODO (LOOU): Tempo: create a new column (absolut_tempo_error) where the previous tempo .... you will figure it out
             # returns one song
@@ -92,5 +107,3 @@ if __name__ == "__main__":
             # TODO: update the database  --> current_song =
             length_song = current_song['length'][0]/1000
             start_time = time.time()
-
-

@@ -2,10 +2,10 @@ import pandas as pd
 import spotipy
 from spotipy.oauth2 import SpotifyClientCredentials
 
-
-#Mischa's client ID
+# Mischa's client ID
 client_id = '7b663f1643884fd49c296fc676166325'
 client_secret = '3e59e5cc8962431ab6127d10e5731f96'
+
 
 def authenticate(client_id, client_secret):
     auth_manager = SpotifyClientCredentials(client_id=client_id, client_secret=client_secret)
@@ -13,16 +13,18 @@ def authenticate(client_id, client_secret):
     return sp
 
 
-def get_playlist_URI(sp, query):
-    results = sp.search(q=query, type='playlist', limit=10)
-    playlist_uri = results['playlists']['items'][0]['uri']
-    return playlist_uri
-
-
 # maximum of songs is 100
-def get_songs(sp, number_of_songs, playlist_uri):
-    playlist = sp.playlist(playlist_uri)
-    songs = playlist['tracks']['items'][:number_of_songs]
+def get_songs(sp, number_of_songs, query):
+    results = sp.search(q='genre ' + query, type='playlist')
+    playlists = results['playlists']['items'][:10]
+    songs = []
+    for p in playlists:
+        if len(songs) == number_of_songs:
+            return songs
+        else:
+            playlist = sp.playlist(p['uri'])
+            temp = playlist['tracks']['items'][:(number_of_songs - len(songs))]
+            songs.extend(temp)
     return songs
 
 
@@ -60,6 +62,7 @@ def create_table_songs(sp, songs):
 
 # test
 sp = authenticate(client_id, client_secret)
-songs = get_songs(sp, 100, get_playlist_URI(sp, 'very sad'))
+songs = get_songs(sp, 200, 'rock')
 data = create_table_songs(sp, songs)
-data.to_csv('very_sadSongs.csv')
+print(data['speechiness'].describe())
+# data.to_csv('very_sadSongs.csv')
