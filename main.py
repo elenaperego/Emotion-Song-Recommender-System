@@ -53,9 +53,9 @@ user_name = user_recognition.get_user_name(image, cam_path)
 # TODO: Get random song from preference list of user
 
 # Get random song
-songs = gs.get_songs(sp, 100, gs.get_playlist_URI(sp, mischasPreference[0]))
-#songs.append(gs.get_songs(sp, 100, gs.get_playlist_URI(sp, mischasPreference[1])))
-#songs.append(gs.get_songs(sp, 100, gs.get_playlist_URI(sp, mischasPreference[2])))
+songs = gs.get_songs(sp, 100, gs.get_playlist_URI(sp, preferences.get(user_name)[0]))
+songs.extend(gs.get_songs(sp, 100, gs.get_playlist_URI(sp, preferences.get(user_name)[1])))
+songs.extend(gs.get_songs(sp, 100, gs.get_playlist_URI(sp, preferences.get(user_name)[2])))
 data = gs.create_table_songs(sp, songs)
 
 current_song = data.sample(1) # Assuming is a df with one sample
@@ -66,7 +66,6 @@ if __name__ == "__main__":
     start_time = time.time() # seconds
     # TODO: before getting the length store random song from preference in df
     length_song = current_song['length'].values[0] / 1000 
-    print("GOT HERE")
     while True:
         elapsed_time = time.time() - start_time
         cam = cv2.VideoCapture(0)
@@ -74,7 +73,6 @@ if __name__ == "__main__":
         time.sleep(3)
         _, image = cam.read()
         cam.release()
-        cv2.imwrite('test.png',image)
         data = DeepFace.analyze(image, enforce_detection=False)
         # --> dict_keys(['emotion', 'dominant_emotion', 'region', 'age', 'gender', 'dominant_gender', 'race', 'dominant_race'])
         binary_emotion = emotion_to_binary.get(data[0].get('dominant_emotion'))
@@ -91,9 +89,9 @@ if __name__ == "__main__":
             current_dominant_emotion.clear()
 
             # get songs based on preference
-            songs = gs.get_songs(sp, 100, gs.get_playlist_URI(sp, mischasPreference[0]))
-            #songs.append(gs.get_songs(sp, 100, gs.get_playlist_URI(sp, mischasPreference[1])))
-            #songs.append(gs.get_songs(sp, 100, gs.get_playlist_URI(sp, mischasPreference[2])))
+            songs = gs.get_songs(sp, 100, gs.get_playlist_URI(sp, preferences.get(user_name)[0]))
+            songs.extend(gs.get_songs(sp, 100, gs.get_playlist_URI(sp, preferences.get(user_name)[1])))
+            songs.extend(gs.get_songs(sp, 100, gs.get_playlist_URI(sp, preferences.get(user_name)[2])))
             data = gs.create_table_songs(sp, songs)
             print("EMOTION ",emotion)
     
