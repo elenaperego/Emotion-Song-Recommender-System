@@ -3,6 +3,8 @@ import random
 import pandas as pd
 import spotipy
 from spotipy.oauth2 import SpotifyClientCredentials
+from sklearn.preprocessing import StandardScaler
+
 
 # Mischa's client ID
 # Mischa's client ID
@@ -65,13 +67,13 @@ def create_table_songs(sp, songs):
 
 
 """
-input: df of songs matching users emotion
+input: df of songs matching users emotion and preference
 output: next song recommendation (including all features), based on tempo of current song and all next 
 """
 def filter_closest_tempo(df_songs, cur_song):
     # no song is playing yet
     if cur_song is None:
-        best_rec = df_songs
+        best_rec = df_songs  
     # choose next song
     else:
         pl_df_songs = df_songs.copy()  # deep copy of df
@@ -80,14 +82,36 @@ def filter_closest_tempo(df_songs, cur_song):
         pl_df_songs.sort_values(by=['absolut_tempo_error'], inplace=True)
 
         # get top 10% of songs
-        ind = int(len(pl_df_songs) * 0.1)
+        ind = (int(len(pl_df_songs) * 0.1)) -1
         best_rec = pl_df_songs[:ind]
 
     # randomly select one of the top songs
-    ind = random.randint(0, len(best_rec))
+    ind = random.randint(0, len(best_rec)-1)
     next_song = best_rec.iloc[ind]
 
     return next_song
+
+
+def filter_emotion(data, emotion):
+    scaler = StandardScaler()
+    scaler.fit(data[['speechiness', 'loudness']])
+    data[['speechiness', 'loudness']] = scaler.transform(data[['speechiness', 'loudness']])
+    if emotion == 'Sad':
+        data = data[data['speechiness'] > 0.5]
+    elif emotion == 'Calm':
+        data = data[data['speechiness'] < 0.5]
+    elif emotion == 'Happy':
+        data = data[data['loudness'] < 0.5]
+    else:
+        data = data[data['loudness'] > 0.5]
+    return data
+
+
+def get_recommended_song_list(user_name, user_recognition, songs, sp):
+    for p in user_recognition.get_preferences().get(user_name):
+        songs.extend(get_songs(sp, 50, p))
+
+    return create_table_songs(sp, songs)
 
 
 # test

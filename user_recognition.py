@@ -3,6 +3,16 @@ import cv2
 from deepface import DeepFace
 
 
+
+PREFERNCES = {'Mischa': ['rock', 'pop', 'classical'],
+               'Elena': ['party', 'classical', 'punk'],
+               'Meli': ['techno', 'latin', 'jazz'],
+               'Lena': ['alternative', 'rap', 'pop']}
+
+
+def get_preferences():
+    return PREFERNCES
+
 """
 output: list of paths to all images in the database (of users)
 """
@@ -30,7 +40,6 @@ def identify_user(cam_path, img_paths):
         if result.get('verified'):
             ph = (img.split("/")[-1])
             user = ph.split(".")[0]
-            print("Hello " + user + " !")
             return user
 
 
