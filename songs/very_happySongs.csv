@@ -1,0 +1,101 @@
+,id,name,album,artist,release_date,popularity,length,danceability,acousticness,energy,instrumentalness,liveness,valence,loudness,speechiness,tempo,key,time_signature
+0,51hFuz0vN2FWCaxwRMPqaA,Give It Up,Give It Up,The Good Men,1992-07-02,40,207800,0.847,0.0271,0.865,0.431,0.0556,0.666,-6.736,0.0991,124.847,4,4
+1,7MjTPvXSAYB1NyzXLQKsMn,Oh Carolina,Pure Pleasure,Shaggy,1993-01-01,49,190893,0.849,0.485,0.832,0.0,0.343,0.939,-7.83,0.128,124.558,0,4
+2,5xzIupBHZs1dDlUq0p663x,Free - Disco 70 Version,Italo House Party (20 Classics),Various Artists,2013-02-19,9,188933,0.728,0.014,0.856,0.671,0.0947,0.713,-11.53,0.0438,128.908,5,4
+3,1hQGBdgkacQTelwjFFGuvD,Wanna Get Your Love - Radio Version,Wanna Get Your Love,Jenny Bee,1995-01-20,16,230706,0.67,0.0119,0.881,0.013,0.0725,0.919,-6.752,0.0389,120.035,8,4
+4,14ktwBpf27wrlv5MB6qwOM,Send Me An Angel And Set Me Free,The Best Of CB Milton,CB Milton,2010-10-08,24,248706,0.624,0.159,0.844,0.00553,0.181,0.87,-11.665,0.0569,130.0,4,4
+5,67Wb4VsAjTuYlJHxdMdzvk,U Got 2 Know - Radio Coffee Mix,Greatest Hits,Cappella,2020-04-30,3,255333,0.68,0.000751,0.97,0.783,0.287,0.854,-7.756,0.0316,131.684,5,4
+6,5igLjt2pQ4Q2aiFIrBjuUR,Only With You - Radio Mix,Love Is Not Sex,Captain Hollywood Project,1993-03-05,45,234093,0.642,0.0712,0.984,0.467,0.116,0.893,-7.893,0.0425,128.852,8,4
+7,5FpM2PD3JfiLSE03IzaGr7,Move to the Rhythm - Radio Version,Move to the Rhythm,Bass Bumper's,1992,10,205600,0.763,0.0552,0.771,0.00289,0.383,0.908,-12.351,0.0393,129.989,0,4
+8,42oKJNnlsnD99XUPVdQunL,Why Don't You,Why Don't You,Rage,1992,5,235666,0.638,0.0299,0.988,4.8e-05,0.34,0.659,-6.513,0.0382,122.901,9,4
+9,2P5ynB2OvVc0WIznmE3QKy,Power Of American Natives,90's Top 100 Best Ever,Various Artists,2010-06-07,27,230659,0.71,0.00244,0.683,0.9,0.179,0.56,-10.536,0.0383,134.985,11,4
+10,7t020iFDoAjNgc4mjUMBAS,Plastic Dreams - Radio Edit,Plastic Dreams,Jaydee,2011-03-25,45,205050,0.731,0.178,0.575,0.349,0.0693,0.295,-13.088,0.0334,128.819,7,4
+11,2470KNl0BwXESfvPCZQbi1,Hell's Party - Dj Ricci Mix,Hell's Party,Glam,1992-01-01,19,359213,0.744,0.00295,0.746,0.744,0.0555,0.755,-10.171,0.0575,129.868,8,4
+12,12BbMJsJi65mxneq6c9Lm7,All That She Wants,Happy Nation,Ace of Base,1992-11-16,0,211213,0.707,0.00526,0.628,8.21e-05,0.104,0.87,-9.684,0.0877,187.548,11,4
+13,2ahnofp2LbBWDXcJbMaSTu,"What Is Love - 7"" Mix",What Is Love (Remixes),Haddaway,1993-03-22,69,270373,0.683,0.0222,0.772,0.0149,0.203,0.737,-7.907,0.0311,123.871,7,4
+14,32x2soGJrUVs5j06RTN1Ev,Oh Boy!,Oh Boy / Dance,Klatsch!,1993-09-14,18,231103,0.732,0.0024,0.961,0.834,0.0828,0.399,-5.055,0.0337,130.843,6,4
+15,03VFP3CCsw95YKX7isDhff,Ain't Nothin' to It - 7'' Radio Version,Ain't Nothin' to It,Def Dames Dope,1993,13,261453,0.681,0.101,0.964,8.01e-06,0.0339,0.908,-9.47,0.0417,136.155,10,4
+16,1AAwAM9IjTlvi8x10kc2I1,Supermodel (You Better Work),Supermodel of the World,RuPaul,1993-06-08,0,239933,0.792,0.0152,0.562,7.48e-05,0.428,0.592,-11.379,0.0929,126.222,7,4
+17,4EK4JdNDagDd8fVqMwf5Jn,All I Want - Radio Mix,Love Is Not Sex,Captain Hollywood Project,1993-03-05,19,225093,0.717,0.102,0.677,0.0794,0.0912,0.267,-12.76,0.0662,109.877,4,4
+18,70KRmzjfzklXyHe5UVBF27,Got To Be Special - Radio edit,Got To Be Special,Marcia Johnson,2006-11-21,1,240893,0.667,0.0331,0.763,0.0111,0.154,0.769,-12.703,0.0302,124.999,9,4
+19,69MsTGWOtfvHpKIeR7fBa0,Drumattack - Original Mix,Wonka - Tunes From The Chocolate Box,Various Artists,2011-12-20,7,326426,0.745,0.0548,0.856,0.914,0.0481,0.224,-10.778,0.0442,130.856,1,4
+20,4t0UsYzmmmZRMTWn77jiGF,Show Me Love,Show Me Love,Robin S,1993-06-15,67,252106,0.811,0.014,0.833,2.06e-05,0.0769,0.567,-4.259,0.153,120.258,5,4
+21,7zUiW7f0xt9z8SFQzEU7lm,Harmony - FPI Funky Mix,Harmony,Tc 1993,2014-11-17,2,293693,0.789,0.244,0.926,0.252,0.19,0.822,-6.312,0.0313,129.974,10,4
+22,13yTtusKcaCxv1xgXXruBE,One Day - Radio Mix,One Day,Sly!,1993-07-18,3,243666,0.67,0.00148,0.827,0.285,0.329,0.881,-11.835,0.0415,129.841,0,4
+23,6hDxjFzTU4uIHYU2pZC73K,Tribal Dance,No Limits,2 Unlimited,1993-05-10,50,219024,0.665,0.0334,0.922,0.0197,0.102,0.744,-14.044,0.0404,130.096,5,4
+24,2QzyjSN4WlRHMFfN3r6Ca3,Slave To The Music,Slave To The Music,Twenty 4 Seven,1993,50,244066,0.661,0.000395,0.87,0.00315,0.332,0.973,-10.826,0.0365,131.013,11,4
+25,4TiC7eJe4B3lXrjRngQNAD,Pinocchio - Legno Mix,Pinocchio vai!,Pin-occhio,2010-05-26,13,191242,0.489,0.000262,0.942,0.872,0.0729,0.415,-11.606,0.0431,147.653,10,4
+26,63qSrkwyVAYCT86CgxGVqr,Keep On Dancing! - Classic Radio Mix,Keep On Dancing!,DJ BoBo,2005-01-01,20,215506,0.585,0.0687,0.938,0.834,0.0875,0.676,-10.601,0.0423,126.018,6,4
+27,0Lg4ckCFjFUeyHOeSozcWS,"The Key, The Secret",The Very Best Of,Urban Cookie Collective,2004,56,222666,0.702,0.0759,0.796,0.00253,0.109,0.607,-6.99,0.0315,129.878,10,4
+28,4XyhzybDGl2ialXvkztmnR,Faces,No Limits,2 Unlimited,1993-05-10,35,228351,0.589,0.00409,0.953,0.00249,0.339,0.801,-12.375,0.0401,130.016,4,4
+29,7gE0gIAIyK8VkOs1B4nKcZ,Dum Da Dum - Radio Version,Nitro (De Originele Soundtrack Van),New Kids,2011-12-02,23,264646,0.94,0.0322,0.959,0.000549,0.288,0.899,-3.323,0.0456,129.627,0,4
+30,38wrjn13uK8TY4L7llIjVR,Move - 2006 Remastered Version,Go - The Very Best Of Moby,Moby,2006-10-24,3,218253,0.551,0.000324,0.887,0.29,0.166,0.381,-7.21,0.0345,131.973,9,4
+31,7qnEcSOw1LDGGDHwDl3OhF,Luv 4 Luv - Stone's Radio Edit,Luv 4 Luv,Robin S,2009-06-05,29,254360,0.761,0.000253,0.781,0.0205,0.0435,0.921,-6.798,0.0406,117.954,0,4
+32,1Vy1afi1OKDnTYsj0HVfcz,Shine On,Making Waves,Sonic Surfers,2010-10-22,5,260053,0.714,0.113,0.945,8.43e-05,0.186,0.817,-7.075,0.0363,128.943,8,4
+33,1P6YWCEcn7Jvjm6diwlPwk,Impossible - Radio Edit,Impossible,Captain Hollywood Project,1993-09-17,37,256160,0.536,0.00354,0.795,0.226,0.301,0.71,-12.396,0.0328,134.26,2,4
+34,26aj54n9Ov8hoODW2mrryR,Is It Love,Slave To The Music,Twenty 4 Seven,1993,36,237893,0.644,0.0512,0.946,0.0,0.479,0.819,-7.74,0.0565,140.008,5,4
+35,1dnxPW7hz7ESOXOm2DlXwq,U Got Me Up - Dajae- Underground Mix '93,It's Time,Cajmere,2010-07-26,25,354083,0.934,0.000387,0.812,0.607,0.0627,0.518,-8.767,0.0708,124.982,2,4
+36,0EMMsmptLezcQjnJ1A4DLd,Don't Go (Station Edit),Don't Go,Boobytrax,1993,11,220626,0.663,0.00703,0.919,0.025,0.0758,0.834,-8.328,0.0493,136.965,10,4
+37,6TXuyHI88fio5ER8Q2C3Fw,Bumped,Hits!,Right Said Fred,2010,0,199558,0.602,0.000605,0.869,1.29e-05,0.199,0.794,-7.489,0.043,105.863,5,4
+38,7KijWxMbFXkqpiDstf6YE0,El Gallinero - Tambalea Mix,El Gallinero (Remix),Ramirez,1993-01-01,29,286213,0.731,0.0181,0.916,0.538,0.166,0.834,-8.278,0.0452,147.864,6,4
+39,3hwfyucLVV7xmgCMyYpARB,Somebody dance with me - Radio Mix,Somebody dance with me,DJ BoBo,2005-01-01,30,214600,0.678,0.0474,0.891,0.0123,0.202,0.608,-11.948,0.0472,124.026,6,4
+40,79zbbqdbNXtRY6govKU8Z9,U Got 2 Let The Music,U got 2 know album,Cappella,2009-11-01,51,330213,0.671,0.0246,0.811,0.803,0.139,0.506,-13.104,0.0343,135.074,9,4
+41,4Fb2QGtRXgEQwVIuF8gKzk,Dancin' On A Higher Ground - Original Radio Edit,Dancin' On A Higher Ground,Fun Da Mental,2012-06-26,15,269613,0.725,0.00159,0.719,0.036,0.223,0.924,-13.122,0.0406,133.929,9,4
+42,3wxhVi1vWHnZ32m8Ke0MDl,One Love - Edit,Music for the Jilted Generation,The Prodigy,1994-04-04,37,233573,0.619,0.0686,0.948,0.514,0.231,0.11,-6.982,0.042,148.014,6,4
+43,6UknzvbzUShflIQH7SS150,Havin' a Good Time,It's a Girl,Def Dames Dope,1993,14,228560,0.596,0.0015,0.945,0.00019,0.0609,0.977,-10.417,0.0337,140.047,7,4
+44,4cqiLvFRDuV8ClE61eMmZx,Never Alone,Dreams,2 Brothers On The 4th Floor,1994-01-01,56,351026,0.705,0.171,0.866,0.000162,0.645,0.816,-5.036,0.0563,127.986,8,4
+45,42MOQv8uspw7Jt6XSujAm7,Life - Radio Edit,The Album,Haddaway,1993-09-13,52,257360,0.595,0.00601,0.847,0.445,0.215,0.596,-8.495,0.0333,128.479,10,4
+46,0JXXm3RqxU8EKzX4P8M0n3,More And More - Single Version,Love Is Not Sex,Captain Hollywood Project,1993-03-05,60,253573,0.661,0.225,0.847,0.835,0.0863,0.71,-11.855,0.0349,125.862,7,4
+47,1hGvGM76KOX6tpAyaHB0au,No Limit,Unlimited Hits & Remixes,2 Unlimited,2014-05-05,50,223685,0.663,0.0108,0.999,0.0012,0.0559,0.633,-6.676,0.0553,141.045,3,4
+48,3TP4EDJmesfsWE09sK98pd,Why Not Jazz - Original Mix,I Am a Number 1,Leonardo Pancaldi,2018-03-08,12,317602,0.64,0.00183,0.889,0.807,0.136,0.691,-4.195,0.0449,125.295,3,4
+49,7a7W0Ki2ulwA0CNbTxJWZG,Out of Space - Edit,Out of Space,The Prodigy,1992-11-09,33,224133,0.661,0.012,0.762,0.128,0.129,0.443,-13.484,0.0508,147.068,9,4
+50,0lJ4AEpcISwkSwHIdSN0Ft,"It's OK, All Right",It's a Girl,Def Dames Dope,1993,28,229120,0.722,0.024,0.864,1.92e-05,0.0244,0.965,-11.7,0.0409,127.034,1,4
+51,0jsafzwL3ny30py0SNjsvM,It Keeps Rainin' (Tears From My Eyes),Massive Hits! - Reggae & Ska,Various Artists,2011-04-18,35,217453,0.875,0.329,0.792,0.00475,0.0837,0.994,-11.553,0.0378,133.302,7,4
+52,6EepIREqJpQm4k6YqQJUwO,Take Me Up - Rap Edit,Take Me Up,Sonic Surfers,2010-10-22,3,267866,0.708,0.00579,0.862,0.0865,0.0523,0.685,-9.842,0.0512,123.95,9,4
+53,3tWo4DCywru39DxvbFbAFP,Tu Ta Tu Ta Tu Ta Ta - Mangiafuoco Mix,Pinocchio vai!,Pin-occhio,2010-05-26,29,247745,0.773,0.00027,0.995,0.716,0.762,0.852,-7.83,0.0446,137.955,7,4
+54,5ZDL1Ap2Mwhk5xhmQ41Ei2,Boom! Shake the Room,Code Red,DJ Jazzy Jeff & The Fresh Prince,1993-10-12,51,226200,0.792,0.0698,0.964,0.0,0.302,0.621,-5.405,0.154,99.771,1,4
+55,2e0nVBn2Qj5DPvcLFGfH5W,Ain't No Love (Ain't No Use) [feat. Melanie Williams],Full Fathom Five,Sub Sub,1994-06-01,40,315466,0.802,0.00363,0.962,0.0794,0.312,0.966,-7.28,0.0415,127.035,8,4
+56,7wXYS1MQxE3L44ImY3UyjU,"Coming On Strong - Beatmasters 7""",S.O.S. (EP1),The Shamen,1993,0,226200,0.628,0.00706,0.618,3.42e-06,0.291,0.557,-10.957,0.0335,107.362,1,4
+57,3pEuO9J2MTEmec8kUfYYvl,Another Night,Another Night,Real McCoy,1995-03-28,61,236933,0.813,0.0908,0.882,0.00457,0.147,0.874,-7.575,0.0402,125.983,7,4
+58,2mgUebixxrNkoshOvRfT2L,What's Up Doc? (Can We Rock?) (with Shaquille O'Neal) - K-Cut's Fat Trac Remix,Nervous Breakdown,FU-Schnickens,1994-10-25,26,236493,0.959,0.0137,0.857,2.36e-06,0.0668,0.758,-8.171,0.256,108.149,6,4
+59,7r5Yr4lvbpw11owC2uWJsB,Find The Way - Extended Mix,Find The Way,Mars Plastic,2009-11-01,10,387426,0.576,0.000462,0.789,0.822,0.294,0.572,-12.733,0.0388,126.983,6,4
+60,3XG801WWhqC753dekEBkMt,Real Love,What's The 411?,Mary J. Blige,1992-01-01,62,269973,0.769,0.119,0.781,0.000371,0.0506,0.826,-5.472,0.0797,95.02,0,4
+61,7HlxqDDzdWE3gK0i6fS6Bt,Feels Like Heaven,The Very Best Of,Urban Cookie Collective,2004,44,210133,0.639,0.114,0.952,0.00267,0.0415,0.787,-5.905,0.0364,129.845,1,4
+62,0in6oqBYRxhOUWNWHgy8ls,Doop - dooper than doop,The doop eepee,Doop,2011-01-19,37,188307,0.824,0.0198,0.917,0.891,0.264,0.87,-4.997,0.0339,130.019,11,4
+63,4ZYDBbIMyhS9skj2ofP0pN,Joy - Lovejoy Vocal 12 Mix,Joy,Staxx,2005-12-12,11,384760,0.674,0.00107,0.873,0.0304,0.31,0.495,-5.887,0.0383,126.806,8,4
+64,1J1RnIHwcJOFMyQX5ORw71,Maximum Overdrive,No Limits,2 Unlimited,1993-05-10,32,239409,0.646,0.00708,0.845,1.83e-05,0.144,0.696,-13.238,0.0415,128.0,10,4
+65,25m9ewobqfex2lJ2pa2O6k,Take Control - New Version,Celebration,DJ BoBo,2002-03-25,37,225493,0.636,0.0101,0.958,0.000519,0.224,0.341,-8.862,0.0412,130.016,11,4
+66,48ngYoDWfJQQK07v3YGHbl,No Time to Waste - Radio Mix,The Hit Collection,T-Spoon,2011-07-01,30,232000,0.769,0.0292,0.893,0.000135,0.186,0.654,-5.489,0.0405,133.964,5,4
+67,2ApNOLO7FHbSP9cSVbhU4V,Fuk U in the Ass,1 Polish 2 Biscuits & a Fish Sandwich,The Outhere Brothers,1994-01-01,21,235306,0.897,1.63e-05,0.59,0.000111,0.208,0.417,-10.436,0.0505,121.993,11,4
+68,26J6ZaDI1eQ0RziydpDUZL,Africa - Vocal Dance Mix,Italo Disco 90's,Various Artists,2017-08-25,2,277548,0.649,0.0638,0.875,0.0186,0.0662,0.963,-12.682,0.0306,133.871,8,4
+69,6gRBOvZSbpYEsqm1DWsxVX,I Miss You - Club Mix,I Miss You,Haddaway,1993-11-15,7,325600,0.73,0.0237,0.806,0.413,0.038,0.801,-9.803,0.0688,103.896,8,4
+70,4F2T4Jm9OuJO3MGkVWAr8t,I'm Looking For The One (To Be With Me),Code Red,DJ Jazzy Jeff & The Fresh Prince,1993-10-12,27,275000,0.766,0.00729,0.839,0.0,0.319,0.675,-3.338,0.173,97.394,1,4
+71,2VnXXt93tj3Vxll1SYGhxW,Piece of My Heart - Single Mix,Best of Intermission,Intermission,2020-12-16,0,245274,0.685,0.031,0.641,0.0114,0.168,0.618,-11.443,0.0286,131.603,7,4
+72,3TM8bajLaaZ1nVLY23fwzS,Pomm pomm - Radio Version,Pomm pomm,Indee,1993-02-14,3,251600,0.598,0.000291,0.98,0.515,0.958,0.848,-9.599,0.0367,133.386,3,4
+73,4W8Nl6aAqrdAx2RpvhaZWF,Real Love,Dominator (Special Edition),The Time Frequency,2017-07-03,32,242946,0.521,0.00141,0.926,0.053,0.131,0.68,-6.109,0.0321,129.856,10,4
+74,6x6G0shZs4Qg4YLfLbhR7z,Right in the Night (Fall in Love with Music),Tripomatic Fairytales 2001 (Deluxe Edition),Jam & Spoon,1993-04-20,54,364400,0.74,0.0247,0.946,0.242,0.124,0.715,-11.681,0.0353,137.015,0,4
+75,2fTjkEmR1t7J4WICztg136,Funk Dat,Funk Dat (Why Is It?),Sagat,1993-01-01,0,259800,0.886,0.466,0.436,0.0241,0.045,0.775,-15.295,0.103,118.976,3,4
+76,59VRFpPnC8pOhIH2WCWXF9,Saturday Night - Radio Mix,Saturday Night Single,Whigfield,1994-09-19,66,247405,0.728,0.0449,0.784,0.0918,0.0964,0.964,-11.776,0.0379,129.981,11,4
+77,5oIWttKKSWsdYZDpkjCioz,Don't Give It Up,Making Waves,Sonic Surfers,2010-10-22,6,229733,0.628,0.0199,0.801,0.769,0.224,0.784,-10.0,0.0325,131.93,0,4
+78,5a6WvCvpzP3flz3ZG0aAMp,Rock My Heart - Radio Mix,The Album,Haddaway,1993-09-13,49,250933,0.592,0.00551,0.931,0.0301,0.205,0.612,-7.186,0.0371,130.028,5,4
+79,0gxYBPJZjtHhptH9abY9ry,High On A Happy Vibe,The Very Best Of,Urban Cookie Collective,2004,18,316466,0.61,0.0357,0.947,8.84e-05,0.0591,0.788,-5.305,0.0391,131.472,2,4
+80,4g52WwOuFnpt34co51qK08,"The Real Thing - Joy Brothers 7"" Dance Mix",The Real Thing,Tony Di Bart,1994-04-04,31,230906,0.671,0.0916,0.656,0.276,0.308,0.213,-15.248,0.0318,128.913,7,4
+81,2ZmugvrI7JPIlJ2JYBgqV4,"We Can Sing, We Can Dance","We Can Sing, We Can Dance",Lily Marlene,1994,0,228400,0.577,0.0193,0.923,0.00993,0.282,0.694,-9.531,0.237,128.912,4,4
+82,6dHTkQYY3zdR9i9Nj0IGVW,"I Like To Move It (feat. The Mad Stuntman) - Erick ""More"" Album Mix",Move It!,Reel 2 Real,1994-10-10,63,230760,0.863,0.0394,0.781,0.000292,0.125,0.764,-8.546,0.0785,122.938,5,4
+83,5KyoqQA9BuzC56CTQ0sIF8,Hold On If You Believe In Love,The Best Of CB Milton,CB Milton,2010-10-08,12,230466,0.685,0.0798,0.914,0.0024,0.276,0.733,-12.292,0.112,138.055,11,4
+84,2doOp8uYV6fNxqcquijZPM,Hold That Sucker Down - Radio Edit,Hold That Sucker Down,OT Quartet,2007-11-12,39,223400,0.638,0.000507,0.909,0.233,0.277,0.289,-7.783,0.0452,129.039,11,4
+85,3mOCAHNmIp2kGP7QdnJFup,I Want to Thank You,Show Me Love,Robin S,1993-06-15,17,244746,0.71,0.104,0.71,6.26e-06,0.114,0.492,-10.509,0.0373,120.122,8,4
+86,6GD6i4IR42KjQJYJc26Jzi,"Girl, I Love You So (Radio Edit)","Girl, I Love You So",Black Baron,1994-04-18,3,231066,0.659,0.0426,0.948,0.00531,0.0538,0.64,-8.136,0.0495,125.193,0,4
+87,3zysmu7zY7fND13QEuBFFQ,Take Me Away,Slave To The Music,Twenty 4 Seven,1993,41,214733,0.664,0.00539,0.718,0.0,0.252,0.766,-9.235,0.0279,130.983,1,4
+88,6eVcruu23mFIWU4adTi9RQ,Close to You,Flash Hits 95,Various Artists,2019-03-09,0,251859,0.713,0.00578,0.833,0.0184,0.124,0.868,-10.248,0.0369,134.906,9,4
+89,0ofMkI3jzmGCElAOgOLeo3,The Rhythm of the Night,The Rhythm of the Night,Corona,1994,69,264280,0.69,0.000232,0.805,0.739,0.095,0.799,-11.522,0.0336,127.808,5,4
+90,06hsdMbBxWGqBO0TV0Zrkf,Cotton Eye Joe,Sex & Violins,Rednex,1994-08-12,69,194000,0.729,0.0129,0.936,0.000892,0.0367,0.598,-7.536,0.0776,131.986,9,4
+91,7IEgqK88G38ZjkRl8FodjV,Feel What You Want,Feel What You Want,Kristine W,2009-04-20,23,251906,0.861,0.0774,0.678,2.21e-05,0.0857,0.636,-8.624,0.0567,126.032,9,4
+92,6HOi4zBQSnltOb7If3CP4C,Bang (Radio Edit),Bang,The Riders,1995,14,241826,0.69,0.0101,0.914,0.193,0.0799,0.919,-9.566,0.0288,130.042,6,4
+93,7sfBmEq0Fq9xRv3BxlmVwC,Got to move your Body - Single Mix,Got to move your Body,Lick ft. Kentucky Martha,2010-03-05,17,208466,0.699,0.00108,0.884,0.52,0.0605,0.801,-9.393,0.0313,127.853,11,4
+94,2R1MYERNNN0G2VAnk95Egt,"Shine - Beatmasters 7"" Mix",Shine,Aswad,1994-04-01,25,219133,0.691,0.0697,0.863,0.0,0.0833,0.701,-6.842,0.0427,104.89,5,4
+95,2QSXabahc4AQ4vDhirMxM0,Dedicated to the One I Love,Massive Hits! - Reggae & Ska,Various Artists,2011-04-18,25,221933,0.587,0.0221,0.417,0.0,0.31,0.666,-11.414,0.0416,175.691,7,4
+96,25TVeULzayWYtkpIPh3JVw,Another Day - Radio Nite Mix,Another Day,Whigfield,1994-01-19,17,244715,0.711,0.00239,0.87,0.00653,0.307,0.855,-7.669,0.0319,133.27,5,4
+97,5kaXQSxiy3b3aAFyJEf7h3,Run To Me - Blue Mix,Run to Me,Double You,1994-01-01,20,331680,0.624,0.014,0.84,0.0343,0.169,0.789,-10.525,0.0311,134.977,10,4
+98,72vPueDUvJcL3MCPb55RHR,Sister Golden Hair,Sister Golden Hair,Spanic,1994-01-01,38,227725,0.713,0.00256,0.598,0.104,0.0637,0.483,-17.902,0.0345,131.935,8,4
+99,3QlTzofanSqDWywxEzGGE2,Fantastic Voyage,It Takes a Thief,Coolio,1994-07-19,0,334440,0.888,0.0389,0.584,3.25e-06,0.0625,0.762,-13.308,0.112,104.704,7,4

@@ -36,13 +36,18 @@ def highest_occurrence(strings):
             occurrences[string] = 1
     return max(occurrences, key=occurrences.get)
 
+# Define a function to update the content of column 2
+def update_col_content(column,new_content):
+    column.markdown(new_content)
+
 
 if __name__ == "__main__":
     st.title("Emotion Song Recommender!")
+    st.subheader('The first recommedation is based on your preferences')
     col1, col2, col3 = st.columns(3)
 
     with col1:
-        st.markdown("This is your pretty face ;)")
+        st.write("This is your pretty face ;)")
         picture = st.camera_input("")
 
     cam = cv2.VideoCapture(0)
@@ -61,9 +66,10 @@ if __name__ == "__main__":
     current_song = gs.filter_closest_tempo(data, current_song)
     
     recommendation = get_url_song.get_current_song(current_song['artist'],current_song['name'],sp)
-    with col3:
-        st.markdown("To listen to your song recommendation, please click the folllowing link.")
-        st.write(recommendation)
+
+    update_col_content(col3,"To listen to your song recommendation, please click the folllowing link.")
+    update_col_content(col3,recommendation)
+    update_col_content(col2,"We detect that you are currently feeling: ")
 
     start_time = time.time() # seconds
     length_song = current_song.loc['length'] / 1000 
@@ -89,19 +95,13 @@ if __name__ == "__main__":
             dominant_emotions.clear()
 
             print("EMOTION ",current_emotion)
-            with col2:
-                col2.markdown('')
-                st.markdown("We detect that you are currently feeling: ")
-                st.write(binary_to_emotion.get(current_emotion))
     
-
             # get songs based on preference
             data = gs.get_recommended_song_list(user_name, user_recognition, songs, sp)
 
             # Classify on emotion with model (NN or RF) taking into account the current dominant emotion
-            # TODO (MISCHA): Play around with NN 
             # returns a df of songs matching the two possible emotion
-            filtered_data = model_library.predict_emotions_rf(data,binary_emotion)
+            filtered_data = model_library.predict_emotions_nn(data,binary_emotion)
 
 
             # Filter/Order on sad or calm = speechiness --> high speechiness = sad, energetic and happy = loudness --> high loudness = energetic
@@ -120,8 +120,8 @@ if __name__ == "__main__":
 
             recommendation = get_url_song.get_current_song(current_song['artist'],current_song['name'],sp)
 
-            with col3:
-                col3.markdown('')
-                st.markdown("To listen to your song recommendation, please click the folllowing link.")
-                st.write(recommendation)
+            update_col_content(col2, '')
+            update_col_content(col2, binary_to_emotion.get(current_emotion))
+            update_col_content(col3, '')
+            update_col_content(col3,recommendation)
 

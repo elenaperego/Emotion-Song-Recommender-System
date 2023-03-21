@@ -1,0 +1,101 @@
+,id,name,album,artist,release_date,popularity,length,danceability,acousticness,energy,instrumentalness,liveness,valence,loudness,speechiness,tempo,key,time_signature
+0,7gVKcYSlUsJtrG0bbeh1fz,This Too Shall Pass,A World of Color,End of Silence,2018-12-21,0,301766,0.11,0.941,0.184,0.867,0.0889,0.0366,-14.568,0.0334,93.0,8,4
+1,5K6HZ4t7rUb2VbZqmBPPfY,Wind Guide You,The Elder Scrolls V: Skyrim: Original Game Soundtrack,Jeremy Soule,2013-01-31,51,545268,0.132,0.899,0.0861,0.811,0.11,0.0359,-24.863,0.0429,71.243,2,5
+2,3wnSHCMTtD1fxwOzTc5Gdh,Distant Horizons,The Elder Scrolls V: Skyrim: Original Game Soundtrack,Jeremy Soule,2013-01-31,52,232870,0.0604,0.98,0.0898,0.919,0.0933,0.0347,-22.09,0.0419,52.07,4,4
+3,0JNwcPIyy4mykZK6oz3m8n,Among the Giants,39 Seconds,Marcus Warner,2018-12-15,17,290790,0.402,0.914,0.327,0.884,0.0842,0.0385,-12.527,0.0279,93.993,9,4
+4,6q1yGIr1b48PZqFc4vwUwI,Forget About Everything,Where the Earth Meets the Sky,Marcus Warner,2019-03-07,20,91874,0.198,0.989,0.172,0.966,0.103,0.17,-20.368,0.0444,116.934,7,4
+5,59K5Rc1ct6ffzF49M1m3at,Snow Angels,Unleashed,Two Steps from Hell,2017-09-22,27,165840,0.198,0.982,0.12,0.894,0.131,0.0385,-15.615,0.0355,66.851,0,5
+6,2rtFUTZLSQ7cECBXfUOgJe,Far Horizons,The Elder Scrolls V: Skyrim: Original Game Soundtrack,Jeremy Soule,2013-01-31,54,331475,0.0619,0.937,0.172,0.952,0.17,0.0442,-20.773,0.0404,65.409,10,3
+7,0lIDOHnoe4RJgm6rzowj6x,Tundra,The Elder Scrolls V: Skyrim: Original Game Soundtrack,Jeremy Soule,2013-01-31,52,229500,0.0727,0.967,0.0502,0.969,0.0757,0.0385,-28.819,0.0401,78.152,10,4
+8,5OEXISM55Inhcs4Ea29Iej,Journey's End,The Elder Scrolls V: Skyrim: Original Game Soundtrack,Jeremy Soule,2013-01-31,50,249902,0.125,0.95,0.085,0.958,0.0915,0.038,-25.433,0.0405,71.455,3,3
+9,18CctEeOpjEDIAvWM5S7RE,The Streets of Whiterun,The Elder Scrolls V: Skyrim: Original Game Soundtrack,Jeremy Soule,2013-01-31,58,244842,0.0686,0.943,0.186,0.889,0.108,0.0363,-17.679,0.0346,75.481,1,3
+10,1l7bKxkdTymsFbxWzsK3vw,The City Gates,The Elder Scrolls V: Skyrim: Original Game Soundtrack,Jeremy Soule,2013-01-31,53,226058,0.107,0.953,0.21,0.817,0.281,0.0388,-18.282,0.0388,91.227,7,4
+11,0zke8Vmo0bgbPjxL3pUhqk,From Past to Present,The Elder Scrolls V: Skyrim: Original Game Soundtrack,Jeremy Soule,2013-01-31,57,304007,0.0717,0.983,0.0921,0.847,0.0748,0.0359,-21.53,0.0391,69.286,0,4
+12,0DrhapFEF5d9Yzg4v914dp,Awake,The Elder Scrolls V: Skyrim: Original Game Soundtrack,Jeremy Soule,2013-01-31,57,92899,0.17,0.911,0.146,0.972,0.0729,0.0339,-22.704,0.0415,116.238,0,3
+13,5dmkAW2HpEJgFDSgkywm8N,"Sky Above, Voice Within",The Elder Scrolls V: Skyrim: Original Game Soundtrack,Jeremy Soule,2013-01-31,48,236864,0.0892,0.933,0.111,0.977,0.112,0.0312,-27.386,0.042,86.494,9,4
+14,3tyCvoOLt7lkV8WsNmgmXS,Spirited Away - The Sixth Station,Hisaishi Meets Miyazaki Films,Joe Hisaishi,1997,0,224986,0.272,0.919,0.0477,0.735,0.114,0.0388,-23.435,0.0344,76.053,4,4
+15,0hv8o1BAlQrFTVDLqYVGk9,River Of Life,The Witcher (Original Game Soundtrack),Pawel Blaszczak,2015-09-09,41,321586,0.0818,0.976,0.191,0.867,0.134,0.0382,-14.532,0.0358,75.344,4,4
+16,2V1t5urCnSfvKLK8mOxSA6,Withered Roses,The Witcher (Original Game Soundtrack),Pawel Blaszczak,2015-09-09,23,76000,0.21,0.925,0.259,0.982,0.104,0.0381,-17.903,0.0356,96.299,7,4
+17,31JBO2MzBLAP60nW6crA4X,Monument,Rakasha,Jo Blankenburg,2019-03-01,5,486000,0.0661,0.949,0.117,0.963,0.0899,0.0393,-22.24,0.0381,70.558,7,3
+18,7yVJVZp81Nmt0EZVwr2ueL,Starlight,Revelations,Aiden Appleton,2018-09-08,3,170374,0.129,0.942,0.0444,0.936,0.0995,0.0395,-18.596,0.0386,65.715,1,4
+19,1tpKa3Zf1S7KuYOXmuELdm,Angel in the Moonlit Sky,Revelations,Aiden Appleton,2018-09-08,4,191250,0.138,0.903,0.303,0.976,0.477,0.04,-15.998,0.0346,142.02,2,4
+20,6VIzhy3Jeg6H1Ure3RfYVL,"Moth, Butterfly, and Torchbug",The Elder Scrolls Online Original Game Soundtrack,Various Artists,2014-04-02,42,342200,0.104,0.892,0.138,0.92,0.108,0.0338,-19.111,0.0372,90.331,7,5
+21,16C6Fn3NZPGx3BKJNdIGmU,Auridon Sunrise,The Elder Scrolls Online Original Game Soundtrack,Various Artists,2014-04-02,31,354255,0.108,0.909,0.116,0.714,0.0991,0.0341,-18.796,0.0427,75.828,5,3
+22,3ej72Z3FQqC1AXBlU8ROb8,Thedas Love Theme,Dragon Age Inquisition (Original Game Soundtrack),EA Games Soundtrack,2014-11-17,42,119933,0.203,0.148,0.136,0.957,0.158,0.0277,-22.129,0.0375,64.269,2,5
+23,75XeSh7AtXdnvxrCxtdIwh,Svanire,Divenire,Ludovico Einaudi,2007-04-20,0,448560,0.142,0.844,0.124,0.822,0.119,0.0449,-23.679,0.0423,87.322,5,4
+24,22YB922YcXheidpAgrvhgp,Winter,Empyrean,Aiden Appleton,2020-04-21,15,217781,0.209,0.976,0.13,0.941,0.0684,0.0343,-19.314,0.041,144.238,9,5
+25,11z2z0YyrlsOiAXo5TP1Kq,When the Last Star Fades,Empyrean,Aiden Appleton,2020-04-21,1,234384,0.18,0.972,0.17,0.932,0.0715,0.0565,-18.483,0.0353,79.257,4,4
+26,3fiRyUcg5l4w7pxI7LEoU0,Destroyed Forest,Sai (Music From The Video Game),Steven Coltart,2020-04-30,1,307500,0.0798,0.905,0.287,0.961,0.102,0.0358,-18.152,0.0446,83.242,1,4
+27,7d12KVZenRLEIG3e675o1z,Life Finds a Way,Aeon,David Chappell,2020-05-16,30,136000,0.172,0.955,0.0195,0.956,0.0657,0.277,-29.495,0.0434,62.237,9,5
+28,4Qf4sunHJJz4581avJ07kX,Minstrel's Lament,The Elder Scrolls IV: Oblivion: Original Game Soundtrack,Jeremy Soule,2006-03-20,46,281547,0.0674,0.956,0.0267,0.947,0.11,0.0344,-25.469,0.0388,71.49,3,5
+29,1bXoENBZuBkZniaPhRVgNp,Auriel's Ascension,The Elder Scrolls IV: Oblivion: Original Game Soundtrack,Jeremy Soule,2006-03-20,47,185234,0.0844,0.96,0.075,0.83,0.101,0.0392,-22.065,0.0404,74.743,4,4
+30,1Dyzvio0c8WPU5qU2fMjLH,Home,Home,Francesco Le Metre,2020-08-14,0,204486,0.189,0.962,0.0209,0.898,0.156,0.0512,-27.708,0.0439,69.229,6,3
+31,1VoFYrKhKWEcp4WtuAzEmX,Albedo 1,"Starbase (Original Soundtrack, Vol. 1)",Marcus Warner,2020-05-07,8,139212,0.32,0.758,0.0684,0.92,0.0801,0.0786,-31.634,0.0442,95.916,9,4
+32,5t5JebM2oOY84ZjpXGDrh6,Albedo 0,"Starbase (Original Soundtrack, Vol. 1)",Marcus Warner,2020-05-07,11,129428,0.176,0.919,0.0722,0.981,0.0624,0.036,-29.44,0.0463,87.098,9,4
+33,71ELjmuo4EdaVMNoBppGym,Rings in Hand,Remnants,Austin Wintory,2019-08-02,1,107673,0.207,0.995,0.0263,0.851,0.0977,0.0693,-28.017,0.044,76.798,4,1
+34,7oq32LdHUewiF77oidHHJo,Far Away,Fragments of Legends - Volume II,Valentin Wiest,2013-03-18,1,165773,0.13,0.966,0.125,0.912,0.111,0.0389,-19.606,0.0392,98.552,9,3
+35,1IAIRLSrRXUro5pFJ8Yjly,Letter From Heaven,Fragments of Legends,Valentin Wiest,2011-12-24,1,315000,0.115,0.982,0.064,0.885,0.069,0.0375,-25.803,0.054,78.807,0,4
+36,4BzV7ZLG62XvEJsH17cg9p,Firefly,Fragments of Legends,Valentin Wiest,2011-12-24,2,188750,0.255,0.95,0.0917,0.951,0.129,0.0593,-24.746,0.0297,92.787,3,3
+37,1hvSDzVNkMV9vJ1W10BC6P,The Eight Scribes - Acoustic,Pyre (Original Soundtrack) - the White Lute,Darren Korb,2017-09-28,12,234404,0.464,0.918,0.154,0.929,0.105,0.0896,-20.397,0.0342,154.008,5,4
+38,38Ipf8A31cOkVUMI9b6HCE,For Her Heart,For Her Heart,Sid Acharya,2019-01-21,31,279786,0.0624,0.839,0.174,0.942,0.0553,0.0466,-16.805,0.0361,65.369,2,4
+39,4kEE9Inf79NduJ1hYP6QZe,Bronwyn and Arondir,The Lord of the Rings: The Rings of Power (Season One: Amazon Original Series Soundtrack),Bear McCreary,2022-08-19,1,167400,0.161,0.892,0.135,0.814,0.0942,0.0359,-18.843,0.0383,89.962,4,1
+40,6wXWzOIf6gOnyqJMT3VZah,Benedictus,In2ition,2CELLOS,2013-01-11,39,400426,0.115,0.902,0.258,0.869,0.0935,0.0391,-12.945,0.0376,87.674,2,4
+41,2tDVB9UR69sipUw6Fylo0K,Soon,Soon,ABBOTT,2020-07-10,2,239582,0.11,0.975,0.164,0.879,0.0889,0.037,-15.091,0.0336,85.989,9,1
+42,5P9C5rWDrvrrrQLmXTArFs,Flux,Wild,Eolya,2019-05-15,1,335422,0.391,0.975,0.185,0.934,0.103,0.698,-21.998,0.0565,75.888,2,4
+43,3MJd5S8ZIUp19dVvKxgNoe,Lovesong from the Mountains,Koyasan: Reiki Sound Healing,Deuter,2006-02-13,52,478520,0.184,0.894,0.0878,0.51,0.103,0.0374,-20.655,0.0461,64.248,2,4
+44,5uNPBC6AR5pAzJm5t4cX2g,You're Not Alone,My Policeman (Amazon Original Motion Picture Soundtrack),Steven Price,2022-11-04,25,487213,0.106,0.846,0.0796,0.881,0.0601,0.0327,-21.233,0.0433,89.794,1,4
+45,28mS7Akfjo8YDpyBGRHac2,Air,Herald of the Planes,Hunter Rogerson,2022-10-10,2,292750,0.0938,0.973,0.245,0.923,0.055,0.0387,-16.885,0.0371,81.621,10,4
+46,6E9uCymOnSUYJ3SjenBFF8,Phantasos,Phantasos,Jeremy Soule,2020-03-20,27,1443754,0.0641,0.934,0.0645,0.921,0.101,0.0278,-26.91,0.0501,71.585,0,4
+47,1ne9wOtDF2jM6Cm8WBkaER,Rocky Mountain High,Rocky Mountain High,John Denver,1972-09-15,65,283640,0.455,0.314,0.437,0.0,0.501,0.724,-11.411,0.0278,81.396,4,4
+48,0ofHAoxe9vBkTCp2UQIavz,Dreams - 2004 Remaster,Rumours (Super Deluxe),Fleetwood Mac,1977-02-04,81,257800,0.828,0.0644,0.492,0.00428,0.128,0.789,-9.744,0.0276,120.151,0,4
+49,6dGnYIeXmHdcikdzNNDMm2,Here Comes The Sun - Remastered 2009,Abbey Road (Remastered),The Beatles,1969-09-26,81,185733,0.557,0.0339,0.54,0.00248,0.179,0.394,-10.484,0.0347,129.171,9,4
+50,1k1Bqnv2R0uJXQN4u6LKYt,Ain't No Sunshine,Just As I Am,Bill Withers,1971-05-01,78,125093,0.527,0.457,0.415,1.72e-05,0.117,0.515,-11.451,0.122,78.169,4,4
+51,6vuEG9sZtC4W2zT64f7zLF,Alone Again (Naturally),Back to Front,Gilbert O'Sullivan,1972-01-01,59,216840,0.558,0.583,0.464,0.000133,0.159,0.558,-8.488,0.0354,171.762,8,4
+52,38zsOOcu31XbbYj9BIPUF1,Your Song,Elton John,Elton John,1970-04-10,78,241786,0.554,0.828,0.315,5.53e-06,0.101,0.325,-11.028,0.0298,128.157,3,4
+53,0gZXockVcE7rEhSf4mcGLO,Guitar Man,Guitar Man,Bread,1972,65,226213,0.553,0.144,0.506,3.78e-06,0.438,0.51,-13.271,0.046,143.278,4,4
+54,2M9ro2krNb7nr7HSprkEgo,Fast Car,Tracy Chapman,Tracy Chapman,1988-04-05,77,296800,0.711,0.313,0.292,0.0,0.131,0.194,-15.523,0.037,103.951,4,4
+55,7mjSHL2Eb0kAwiKbvNNyD9,Wild World,Tea For The Tillerman (Remastered 2020),Yusuf / Cat Stevens,1970-11-23,76,200560,0.48,0.345,0.542,0.000609,0.113,0.567,-8.51,0.0348,152.853,0,4
+56,3BQHpFgAp4l80e1XslIjNI,Yesterday - Remastered 2009,Help! (Remastered),The Beatles,1965-08-06,75,125666,0.332,0.879,0.179,0.0,0.0886,0.315,-11.83,0.0326,96.529,5,4
+57,6mFkJmJqdDVQ1REhVfGgd1,Wish You Were Here,Wish You Were Here,Pink Floyd,1975-09-12,74,334743,0.481,0.735,0.262,0.0114,0.832,0.375,-15.73,0.0414,122.861,7,4
+58,5ihS6UUlyQAfmp48eSkxuQ,Landslide,Fleetwood Mac,Fleetwood Mac,1975-07-11,76,199493,0.414,0.883,0.161,0.000223,0.117,0.423,-22.32,0.0318,159.375,7,4
+59,4Hhv2vrOTy89HFRcjU3QOx,At Last,At Last!,Etta James,1960,74,179693,0.274,0.547,0.348,0.0133,0.334,0.328,-8.631,0.0293,87.43,5,3
+60,3PzsbWSQdLCKDLxn7YZfkM,I'm On Fire,Born In The U.S.A.,Bruce Springsteen,1984-06-04,74,155880,0.62,0.589,0.446,0.0299,0.0727,0.868,-14.451,0.0347,88.591,1,4
+61,2TVxnKdb3tqe1nhQWwwZCO,Tiny Dancer,Madman Across The Water,Elton John,1971-11-05,75,377093,0.414,0.382,0.428,0.000243,0.148,0.282,-11.097,0.0278,145.075,0,4
+62,5jgFfDIR6FR0gvlA56Nakr,Blackbird - Remastered 2009,The Beatles (Remastered),The Beatles,1968-11-22,74,138386,0.686,0.754,0.127,1.41e-05,0.0573,0.372,-14.361,0.0342,93.699,7,4
+63,3lh3iiiJeiBXHSZw6u0kh6,Into the Mystic - 2013 Remaster,Moondance,Van Morrison,1970-02,72,205613,0.608,0.367,0.524,0.00254,0.115,0.797,-10.266,0.0309,86.204,8,4
+64,3gsCAGsWr6pUm1Vy7CPPob,Killing Me Softly With His Song,Killing Me Softly,Roberta Flack,1973-01-01,71,286920,0.476,0.727,0.381,0.0,0.0614,0.33,-10.238,0.0342,121.948,5,4
+65,19Shlms2uTnOjIUg50TXzd,Never Going Back Again - 2004 Remaster,Rumours (Super Deluxe),Fleetwood Mac,1977-02-04,71,134400,0.654,0.858,0.336,0.385,0.0786,0.947,-12.825,0.0379,176.083,6,4
+66,0P7DoyGrr4Wp9w5TotEtUC,The Weight - Remastered 2000,Music From Big Pink (Remastered),The Band,1968-07-01,70,274493,0.63,0.373,0.551,5.75e-05,0.103,0.518,-9.28,0.0549,143.868,9,4
+67,1Qrdlkgg9I4J7r3P4kZNwr,Missing You,No Brakes,John Waite,1984-01-01,69,269760,0.552,0.052,0.552,0.0,0.046,0.593,-9.736,0.0364,208.571,11,4
+68,1kPBT8S2wJFNAyBMnGVZgL,I'd Rather Go Blind,Tell Mama,Etta James,1968-04-18,70,156653,0.477,0.689,0.433,0.000195,0.151,0.611,-6.473,0.0247,82.52,11,3
+69,4J0DbyODwZJcmIAiTSJfMF,Annie's Song,Back Home Again,John Denver,1974-06-15,69,180693,0.304,0.871,0.305,0.00368,0.367,0.464,-10.879,0.0298,146.066,2,3
+70,3QcuZo6WLcFkqqLmDs0d95,Doctor My Eyes,Jackson Browne (Saturate Before Using),Jackson Browne,1972,68,199906,0.48,0.266,0.626,5.7e-05,0.0857,0.542,-8.406,0.0294,75.63,5,4
+71,3KfbEIOC7YIv90FIfNSZpo,In My Life - Remastered 2009,Rubber Soul (Remastered),The Beatles,1965-12-03,73,146333,0.688,0.449,0.435,0.0,0.113,0.435,-11.359,0.0323,103.239,9,4
+72,1khA4hwhZD4HMecyE1e9U1,Long Long Time,Silk Purse,Linda Ronstadt,1970-04-13,68,263400,0.427,0.795,0.192,2.55e-06,0.314,0.272,-14.611,0.0285,91.088,9,4
+73,0VNzEY1G4GLqcNx5qaaTl6,Vincent,American Pie,Don McLean,1971,68,243493,0.419,0.908,0.085,5.33e-06,0.34,0.458,-19.387,0.0362,91.509,7,3
+74,0wEo4mwfs6tXYgCem9m9wP,The Wind - Remastered 2021,Teaser And The Firecat (Remastered 2021),Yusuf / Cat Stevens,1971-10-01,67,102986,0.765,0.787,0.291,0.000446,0.149,0.806,-14.456,0.0397,115.751,2,4
+75,18GiV1BaXzPVYpp9rmOg0E,Blowin' in the Wind,The Freewheelin' Bob Dylan,Bob Dylan,1963-05-27,67,165426,0.38,0.914,0.0993,2.32e-05,0.0605,0.44,-20.567,0.0509,174.874,2,4
+76,0djZ2ndRfAL69WYNra5jRC,April Come She Will,Sounds Of Silence,Simon & Garfunkel,1966-01-17,67,109386,0.489,0.863,0.186,0.000152,0.2,0.349,-16.237,0.029,102.245,9,4
+77,2hjAc6x8EoSLhGxRNg8KEw,Crazy Love - 2013 Remaster,Moondance (Expanded Edition),Van Morrison,1970-02,67,155453,0.575,0.841,0.188,4.37e-05,0.228,0.334,-18.758,0.0959,77.464,9,4
+78,10vkYRKw6Jjr7try1ir50G,Tired of Being Alone,Gets Next to You,Al Green,1971-08-14,66,172320,0.772,0.339,0.397,0.00541,0.0753,0.617,-8.585,0.0391,97.964,7,4
+79,2Pr1nZpt8A8WP7QYpyq6L3,Wildflowers,Wildflowers,Tom Petty,1994-10-21,66,190320,0.537,0.588,0.315,2.29e-05,0.206,0.575,-13.79,0.0271,86.813,5,4
+80,1qjrYozGqc7upUgfN776lZ,Sara Smile,Daryl Hall & John Oates (The Silver Album),Daryl Hall & John Oates,1975,66,185293,0.592,0.357,0.398,0.000925,0.119,0.204,-10.81,0.0678,150.038,2,3
+81,51FpzuGkRYXFgsE2zXt9av,When a Man Loves a Woman,When a Man Loves a Woman,Percy Sledge,1966,66,173866,0.516,0.13,0.15,0.0755,0.122,0.205,-20.41,0.0272,97.398,1,3
+82,1UKobFsdqNXQb8OthimCKe,Helplessly Hoping - 2005 Remaster,"Crosby, Stills & Nash","Crosby, Stills & Nash",1969-05-29,66,157893,0.483,0.914,0.159,0.0,0.111,0.423,-13.648,0.0353,146.721,7,4
+83,3HuJDcOWx0gE9Yng2uWY7K,Dream A Little Dream Of Me,What A Wonderful World,Louis Armstrong,1968-01-01,66,196840,0.461,0.604,0.185,0.0,0.121,0.405,-18.087,0.0502,95.509,2,4
+84,4t8tx6o7oM6Ax66ZUU361y,I'll Have To Say I Love You In A Song,I Got a Name,Jim Croce,1973-12-01,65,154626,0.536,0.833,0.446,0.0103,0.106,0.707,-14.98,0.029,133.785,9,4
+85,52vA3CYKZqZVdQnzRrdZt6,The Times They Are A-Changin',The Times They Are A-Changin',Bob Dylan,1964-01-13,64,192053,0.389,0.887,0.396,0.0,0.0828,0.585,-7.999,0.0332,171.86,7,3
+86,2T5Ch09nefwckOu5NQvjIk,Carolina in My Mind,Greatest Hits,James Taylor,1976,64,238573,0.579,0.118,0.267,0.000562,0.132,0.353,-15.11,0.0348,74.899,4,4
+87,5ZoDwIP1ntHwciLjydJ8X2,My Cherie Amour,My Cherie Amour,Stevie Wonder,1969-08-01,64,173306,0.574,0.228,0.507,4.57e-06,0.279,0.514,-11.343,0.0258,101.085,6,4
+88,45WX2cfbL8bCIqv3rOq1G3,I'll Follow The Sun - Remastered 2009,Beatles For Sale (Remastered),The Beatles,1964-12-04,63,108853,0.689,0.789,0.313,0.0,0.144,0.625,-10.073,0.0366,133.754,0,4
+89,69uJi5QsBtqlYkGURTBli8,I Can't Make You Love Me,Luck Of The Draw,Bonnie Raitt,1991-01-01,63,332960,0.588,0.846,0.149,9.65e-05,0.236,0.113,-16.728,0.0319,124.689,7,4
+90,2cWHN0WK52RGAWHgaDamUA,Take It to the Limit - 2013 Remaster,One of These Nights (2013 Remaster),Eagles,1975,63,287090,0.435,0.0916,0.423,0.000659,0.132,0.451,-8.795,0.024,91.137,11,3
+91,0ju1jP0cSPJ8tmojYBEI89,Danny's Song,The Best: Loggins & Messina Sittin' In Again,Loggins & Messina,1971,62,254653,0.505,0.805,0.258,0.0,0.12,0.641,-12.193,0.0297,141.003,11,4
+92,0SxFyA4FqmEQqZVuAlg8lf,The First Time Ever I Saw Your Face,First Take,Roberta Flack,1969,62,260666,0.311,0.731,0.0264,0.00205,0.156,0.139,-21.644,0.037,120.653,0,4
+93,3yYfoYGVpriV4fG9L1ogsD,La vie en rose - Single Version,Highlights From His Decca Years,Louis Armstrong,1994-01-01,65,206333,0.558,0.809,0.123,0.00121,0.0916,0.341,-10.396,0.0525,70.16,0,4
+94,3O4s2m47MFhnGqmpkjoKYk,Leader of the Band,Love Songs,Dan Fogelberg,1995,61,256399,0.628,0.872,0.159,0.0,0.111,0.505,-14.363,0.0333,135.003,8,4
+95,2WOjLF83vqjit2Zh4B69V3,"Don't Think Twice, It's All Right",The Freewheelin' Bob Dylan,Bob Dylan,1963-05-27,64,217400,0.6,0.89,0.243,0.0022,0.249,0.468,-17.085,0.0366,110.535,4,4
+96,6ZSTinOwx5dKFYc6iYyGDn,Leaving on a Jet Plane,Album 1700,"Peter, Paul and Mary",1967-10-31,61,207240,0.414,0.804,0.167,0.0,0.117,0.384,-16.519,0.0484,133.45,9,4
+97,6yjKlmm7vOszkXEUku1EM1,New York State of Mind,Turnstiles,Billy Joel,1976-05-19,61,362400,0.506,0.499,0.373,4.05e-05,0.323,0.194,-9.473,0.0347,121.289,0,4
+98,51ueZKM83MTRv9rgiDfI6Y,Walkin' Back to Georgia,You Don't Mess Around With Jim,Jim Croce,1972-04-01,61,170759,0.661,0.621,0.518,1.78e-05,0.0953,0.776,-10.061,0.0319,127.266,6,4
+99,6dahFmHrgncgVJjsI1ws7e,My Hometown,Born In The U.S.A.,Bruce Springsteen,1984-06-04,61,279666,0.652,0.486,0.338,5.9e-05,0.0744,0.392,-11.58,0.0367,116.881,9,4

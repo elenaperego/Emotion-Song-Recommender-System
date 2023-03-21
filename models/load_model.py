@@ -13,8 +13,9 @@ def predict_emotions_rf(df, emotion):
 
 def predict_emotions_nn(df, emotion):
     df_copy = df.copy()
-    random_forest = joblib.load("./models/random_forest.joblib")
-    prediction = random_forest.predict(df_copy)
+    nn = joblib.load("./models/neural_network_86.joblib")
+    X = df_copy.drop(['id','name','album','artist','release_date'],axis=1)
+    prediction = nn.predict(X)
     df_copy['mood'] = prediction
     return df_copy[df_copy['mood'] == emotion] 
 
