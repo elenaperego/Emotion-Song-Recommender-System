@@ -16,7 +16,7 @@ import get_url_song
 CLIENT_ID = '6e1a09c940a943da95144c6f49a0717b'
 CLIENT_PASSWORD = 'ccc2af43075641f9899eaaac5b716b8b'
 sp = gs.authenticate(CLIENT_ID, CLIENT_PASSWORD)
-allowed_margin_to_change_song = 180 # amount in seconds
+allowed_margin_to_change_song = 60 # amount in seconds
 
 binary_to_emotion = { 0 : 'Sad', 1 : 'Calm', 2 :  'Energetic', 3 : 'Happy' }
 emotion_to_binary = { 'angry' : 2, 'disgust' : 0, 'fear' : 1, 'happy' : 3, 'sad' : 0, 'surprise' : 2, 'neutral' : 1}
@@ -43,7 +43,7 @@ def update_col_content(column,new_content):
 
 if __name__ == "__main__":
     st.title("Emotion Song Recommender!")
-    st.subheader('The first recommedation is based on your preferences')
+    st.subheader('The first recommedation is based on your preferences and not on your current emotion')
     col1, col2, col3 = st.columns(3)
 
     with col1:
@@ -88,7 +88,7 @@ if __name__ == "__main__":
         print("BINARY ",binary_emotion)
 
         # TODO: 30 back to lengt_song
-        if (elapsed_time > 30 - allowed_margin_to_change_song):
+        if (elapsed_time > length_song - allowed_margin_to_change_song):
 
             # get average of current_dominant_emotion (string) and clear the old list
             current_emotion = highest_occurrence(dominant_emotions)
