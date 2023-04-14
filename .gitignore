@@ -4,6 +4,9 @@ secret.csv
 # Mac stuff
 .DS_Store
 
+# IDE stuff
+.idea/
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]

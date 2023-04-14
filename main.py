@@ -16,9 +16,6 @@ import pandas as pd
 # Ele's client ID
 df = pd.read_csv('secret.csv')
 
-#print(CLIENT_ID['CLIENT_ID'][0])
-#print(CLIENT_PASSWORD)
-
 sp = gs.authenticate(df['CLIENT_ID'][0], df['CLIENT_PASSWORD'][0])
 allowed_margin_to_change_song = 60 # amount in seconds
 
