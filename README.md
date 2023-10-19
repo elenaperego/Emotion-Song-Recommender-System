@@ -2,6 +2,8 @@
 
 # Emotion Music Recommender Interface
 
+## [Video with demonstration of the final product](https://www.youtube.com/watch?v=n8tmZxU01iw&ab_channel=MischaRauch)
+
 #### This repository is part of an assignment for a course in Intelligent System (KEN-3430) at Maastricht University.
 
 This project uses the spotipy library to access and play songs on spotify. The deepface library to recognize the user and extract emotions of the user. As classification model two approaches were tested, a Random forest as well as a Neural Network (NN), with additional song extracting the NN outperformed the Random Forest and therefore was used for classifying songs into mood categories. Songs are being classified into Sad, Calm, Energetic, and Happy the users emotion is mapped onto the same spectrum. To display the application Streamlit is used. 
