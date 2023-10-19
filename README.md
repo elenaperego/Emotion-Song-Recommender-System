@@ -2,6 +2,9 @@
 ## Course Assignment
 This repository is part of an assignment for the Intelligent System (KEN-3430) course at Maastricht University.
 
+## [Demonstration Video](https://www.youtube.com/watch?v=n8tmZxU01iw&ab_channel=MischaRauch)
+Click on the link above to view a demonstration of the final product.
+
 ## Overview
 The Emotion Music Recommender Interface is a system that recommends songs based on the user's emotions. It leverages the power of the `spotipy` library to access and play songs on Spotify and the `deepface` library to recognize the user and extract their emotions. As classification model two approaches were tested, a Random forest as well as a Neural Network (NN), with additional song extracting the NN outperformed the Random Forest and therefore was used for classifying songs into mood categories. Songs are being classified into Sad, Calm, Energetic, and Happy the users emotion is mapped onto the same spectrum. To display the application Streamlit is used. Overall, the project aims to bridge the gap between emotions and music, providing users with song recommendations that align with their current mood and music preferences.
 
@@ -17,9 +20,6 @@ The Emotion Music Recommender Interface is a system that recommends songs based 
 - **Classification Models**: Two approaches were tested for song classification - a Random Forest and a Neural Network (NN). The NN outperformed the Random Forest and was chosen for classifying songs into mood categories.
 - **Mood Categories**: Songs are classified into four moods - Sad, Calm, Energetic, and Happy. The user's emotion is mapped onto the same spectrum.
 - **Interactive Interface**: The application uses `Streamlit` for a user-friendly interface.
-
-## [Demonstration Video](https://www.youtube.com/watch?v=n8tmZxU01iw&ab_channel=MischaRauch)
-Click on the link above to view a demonstration of the final product.
 
 ## How to Run
 1. If using conda, first install pip: `conda install pip`
