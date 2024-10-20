@@ -14,9 +14,10 @@ import pandas as pd
 
 
 # Ele's client ID
-df = pd.read_csv('secret.csv')
+client_id = '6e1a09c940a943da95144c6f49a0717b'
+client_secret = 'ccc2af43075641f9899eaaac5b716b8b'
 
-sp = gs.authenticate(df['CLIENT_ID'][0], df['CLIENT_PASSWORD'][0])
+sp = gs.authenticate(client_id, client_secret)
 allowed_margin_to_change_song = 60 # amount in seconds
 
 binary_to_emotion = { 0 : 'Sad', 1 : 'Calm', 2 :  'Energetic', 3 : 'Happy' }
