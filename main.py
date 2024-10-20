@@ -10,6 +10,7 @@ import user_recognition
 import webbrowser
 import streamlit as st
 import get_url_song
+import dlib
 import pandas as pd
 
 
@@ -59,7 +60,7 @@ if __name__ == "__main__":
 
     # user identification
     cam_path = "/database/current_user.png"
-    user_name = user_recognition.get_user_name(image, cam_path)
+    user_name = user_recognition.get_user_name(image)
     st.header("Welcome back "+user_name)
 
     # Get random song

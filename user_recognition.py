@@ -1,49 +1,99 @@
-import os.path
+import os
 import cv2
-from deepface import DeepFace
+import dlib
+import numpy as np
 
+# Initialize dlib's face detector, shape predictor, and face recognition model
+detector = dlib.get_frontal_face_detector()
+predictor = dlib.shape_predictor('shape_predictor_68_face_landmarks.dat')  # Ensure this file is in your project directory
+face_rec_model = dlib.face_recognition_model_v1('dlib_face_recognition_resnet_model_v1.dat')  # Ensure this file is in your project directory
 
+# Lists to store known face encodings and corresponding labels
+known_face_encodings = []
+known_face_labels = []
 
-PREFERNCES = {'Mischa': ['rock', 'pop', 'classical'],
-               'Elena': ['party', 'classical', 'punk'],
-               'Meli': ['techno', 'latin', 'jazz'],
-               'Lena': ['alternative', 'rap', 'pop']}
-
+# Preferences dictionary
+PREFERENCES = {
+    'Mischa': ['rock', 'pop', 'classical'],
+    'Elena': ['party', 'classical', 'punk'],
+    'Meli': ['techno', 'latin', 'jazz'],
+    'Lena': ['alternative', 'rap', 'pop']
+}
 
 def get_preferences():
-    return PREFERNCES
+    return PREFERENCES
 
-"""
-output: list of paths to all images in the database (of users)
-"""
-def get_all_image_paths():
-    folder_name = '/database'
-    imgs = []
-    path = os.getcwd() + folder_name
-    valid_images = [".jpg"]
-    for f in os.listdir(path):
-        ext = os.path.splitext(f)[1]
-        if ext.lower() not in valid_images:
+def load_known_faces():
+    """
+    Load and encode known faces from the database.
+    """
+    database_folder = 'database'  # Ensure this folder path is correct
+    valid_extensions = {".jpg", ".jpeg", ".png"}
+
+    for filename in os.listdir(database_folder):
+        ext = os.path.splitext(filename)[1].lower()
+        if ext not in valid_extensions:
             continue
-        imgs.append(os.getcwd() + folder_name + "/" + f)
 
-    return imgs
+        img_path = os.path.join(database_folder, filename)
+        label = os.path.splitext(filename)[0]  # Assumes filename is the user's name
 
+        image = cv2.imread(img_path)
+        if image is None:
+            print(f"Warning: Unable to load image {img_path}. Skipping.")
+            continue
 
-def save_img(img, img_name):
-    cv2.imwrite(os.getcwd() + img_name, img)
+        gray_image = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)
+        faces = detector(gray_image)
 
+        if len(faces) == 0:
+            print(f"Warning: No face detected in {img_path}. Skipping.")
+            continue
 
-def identify_user(cam_path, img_paths):
-    for img in img_paths:
-        result = DeepFace.verify(img1_path=cam_path, img2_path=img)
-        if result.get('verified'):
-            ph = (img.split("/")[-1])
-            user = ph.split(".")[0]
-            return user
+        face = faces[0]  # Use the first detected face
+        shape = predictor(gray_image, face)
+        face_encoding = np.array(face_rec_model.compute_face_descriptor(image, shape))
 
+        known_face_encodings.append(face_encoding)
+        known_face_labels.append(label)
 
-def get_user_name(img, cam_path):
-    img_paths = get_all_image_paths()
-    save_img(img, cam_path)  # save current webcam image
-    return identify_user(os.getcwd() + cam_path, img_paths)
+def recognize_face(input_image):
+    """
+    Recognize the face from an input image.
+    :param input_image: The image array (BGR format) captured from the webcam.
+    :return: Recognized user's name or "Unknown".
+    """
+    gray_image = cv2.cvtColor(input_image, cv2.COLOR_BGR2GRAY)
+    faces = detector(gray_image)
+
+    if len(faces) == 0:
+        return "No face detected"
+
+    face = faces[0]
+    shape = predictor(gray_image, face)
+    input_face_encoding = np.array(face_rec_model.compute_face_descriptor(input_image, shape))
+
+    # Compute distances between the input face encoding and all known encodings
+    distances = np.linalg.norm(known_face_encodings - input_face_encoding, axis=1)
+
+    if len(distances) == 0:
+        return "Unknown"
+
+    min_distance_idx = np.argmin(distances)
+    min_distance = distances[min_distance_idx]
+
+    if min_distance < 0.6:  # Threshold for recognition
+        return known_face_labels[min_distance_idx]
+    else:
+        return "Unknown"
+
+def get_user_name(img):
+    """
+    Identify the user from the captured image.
+    :param img: The image array (BGR format) captured from the webcam.
+    :return: User's name or "Unknown".
+    """
+    return recognize_face(img)
+
+# Load known faces when the module is imported
+load_known_faces()
