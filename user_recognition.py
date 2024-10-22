@@ -17,7 +17,8 @@ PREFERENCES = {
     'Mischa': ['rock', 'pop', 'classical'],
     'Elena': ['party', 'classical', 'punk'],
     'Meli': ['techno', 'latin', 'jazz'],
-    'Lena': ['alternative', 'rap', 'pop']
+    'Lena': ['alternative', 'rap', 'pop'],
+    'Vito': ['rock', 'pop', 'classical', 'techno']
 }
 
 def get_preferences():
