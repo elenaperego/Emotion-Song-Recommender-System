@@ -8,8 +8,8 @@ from sklearn.preprocessing import StandardScaler
 
 # Mischa's client ID
 # Mischa's client ID
-client_id = '04c186cbe3bf4a7885fdeb9419634b83'
-client_secret = 'fb7a972ac7d743938efc20e4348bb54a'
+client_id = '6e1a09c940a943da95144c6f49a0717b'
+client_secret = 'ccc2af43075641f9899eaaac5b716b8b'
 
 
 
@@ -33,37 +33,51 @@ def get_songs(sp, number_of_songs, query):
             songs.extend(temp)
     return songs
 
-
 def create_table_songs(sp, songs):
     tracks = []
     for song in songs:
-        track = song['track']
-        id = track['id']
-        features = sp.audio_features(id)
-        name = track['name']
-        album = track['album']['name']
-        artist = track['album']['artists'][0]['name']
-        release_date = track['album']['release_date']
-        length = track['duration_ms']
-        popularity = track['popularity']
-        acousticness = features[0]['acousticness']
-        danceability = features[0]['danceability']
-        energy = features[0]['energy']
-        instrumentalness = features[0]['instrumentalness']
-        liveness = features[0]['liveness']
-        valence = features[0]['valence']
-        loudness = features[0]['loudness']
-        speechiness = features[0]['speechiness']
-        tempo = features[0]['tempo']
-        key = features[0]['key']
-        time_signature = features[0]['time_signature']
+        track = song.get('track')
+
+        # Check if track is not None
+        if track is None:
+            continue  # Skip this song if the track information is missing
+
+        id = track.get('id')
+        if id is None:
+            continue  # Skip if there is no track ID
+
+        # Fetch features for the song; handle case where features may be None or empty
+        features_list = sp.audio_features(id)
+        features = features_list[0] if features_list and features_list[0] else {}
+
+        # Extract features, handle None values with default fallbacks
+        name = track.get('name', 'Unknown')
+        album = track['album'].get('name', 'Unknown')
+        artist = track['album']['artists'][0].get('name', 'Unknown')
+        release_date = track['album'].get('release_date', 'Unknown')
+        length = track.get('duration_ms', 0)
+        popularity = track.get('popularity', 0)
+        acousticness = features.get('acousticness', 0.0)
+        danceability = features.get('danceability', 0.0)
+        energy = features.get('energy', 0.0)
+        instrumentalness = features.get('instrumentalness', 0.0)
+        liveness = features.get('liveness', 0.0)
+        valence = features.get('valence', 0.0)
+        loudness = features.get('loudness', 0.0)
+        speechiness = features.get('speechiness', 0.0)
+        tempo = features.get('tempo', 0.0)
+        key = features.get('key', 0)
+        time_signature = features.get('time_signature', 4)  # Default 4/4 time signature
+
         tracks.append([id, name, album, artist, release_date, popularity, length, danceability, acousticness,
                        energy, instrumentalness, liveness, valence, loudness, speechiness, tempo, key, time_signature])
-    columns = ['id', 'name', 'album', 'artist', 'release_date', 'popularity', 'length', 'danceability', 'acousticness',
-               'energy', 'instrumentalness',
-               'liveness', 'valence', 'loudness', 'speechiness', 'tempo', 'key', 'time_signature']
 
+    columns = ['id', 'name', 'album', 'artist', 'release_date', 'popularity', 'length', 'danceability', 'acousticness',
+               'energy', 'instrumentalness', 'liveness', 'valence', 'loudness', 'speechiness', 'tempo', 'key', 'time_signature']
     return pd.DataFrame(tracks, columns=columns)
+
+
+
 
 
 """
@@ -116,6 +130,6 @@ def get_recommended_song_list(user_name, user_recognition, songs, sp):
 
 # test
 sp = authenticate(client_id, client_secret)
-songs = get_songs(sp, 300, 'songs+when+you+are+happy')
+songs = get_songs(sp, 300, 'when+you+are+surprised')
 data = create_table_songs(sp, songs)
-data.to_csv('when-happy.csv')
+data.to_csv('when-surprised.csv')
