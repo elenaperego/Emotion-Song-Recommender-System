@@ -8,8 +8,8 @@ from sklearn.preprocessing import StandardScaler
 
 # Mischa's client ID
 # Mischa's client ID
-client_id = '7b663f1643884fd49c296fc676166325'
-client_secret = '3e59e5cc8962431ab6127d10e5731f96'
+client_id = '04c186cbe3bf4a7885fdeb9419634b83'
+client_secret = 'fb7a972ac7d743938efc20e4348bb54a'
 
 
 
@@ -21,8 +21,8 @@ def authenticate(client_id, client_secret):
 
 # maximum of songs is 100
 def get_songs(sp, number_of_songs, query):
-    results = sp.search(q='genre ' + query, type='playlist')
-    playlists = results['playlists']['items'][:10]
+    results = sp.search(q=query, type='playlist')
+    playlists = results['playlists']['items'][:100]
     songs = []
     for p in playlists:
         if len(songs) == number_of_songs:
@@ -115,7 +115,7 @@ def get_recommended_song_list(user_name, user_recognition, songs, sp):
 
 
 # test
-#sp = authenticate(client_id, client_secret)
-#songs = get_songs(sp, 100, 'very calm')
-#data = create_table_songs(sp, songs)
-#data.to_csv('veryHappy.csv')
+sp = authenticate(client_id, client_secret)
+songs = get_songs(sp, 300, 'songs+when+you+are+happy')
+data = create_table_songs(sp, songs)
+data.to_csv('when-happy.csv')
