@@ -1,0 +1,301 @@
+,id,name,album,artist,release_date,popularity,length,danceability,acousticness,energy,instrumentalness,liveness,valence,loudness,speechiness,tempo,key,time_signature
+0,3Qpj345VRGBSwuOSwFgoQI,Romeo and Juliet Suite No. 2 Montague and Capulets (Excerpt) Op. 64ter,Romeo and Juliet: Suite No. 2 Montague and Capulets (Excerpt) Op. 64ter,Sergei Prokofiev,2024-10-09,47,236374,0.271,0.764,0.33,0.317,0.239,0.161,-8.34,0.0341,81.634,9,4
+1,35xaDoyCRAi1JqpwDT8P1x,William Tell: Overture (Finale),William Tell: Overture (Finale),Gioachino Rossini,2024-10-09,43,213170,0.42,0.537,0.751,0.947,0.255,0.513,-7.822,0.0687,146.346,4,4
+2,6JyihARD2zGUa4uB4NfQiv,"Swan Lake (Suite), Op. 20a, TH.219: I. Scene - Swan Theme",Tchaikovsky: Swan Lake Suites,Pyotr Ilyich Tchaikovsky,2024-03-02,56,177246,0.0904,0.883,0.241,0.884,0.111,0.0548,-13.845,0.035,72.111,4,3
+3,76BfKpZqnuNCZtbN8N3s4C,"Concerto No. 4 in F Minor, Op. 8, RV 297, ""L'inverno"" (Winter): I. Allegro Non Molto",Vivaldi: The Four Seasons,Antonio Vivaldi,2009-07-01,54,211198,0.412,0.861,0.25,0.771,0.0912,0.235,-12.613,0.0466,146.939,5,4
+4,2ygeBLTP9uu3OW3VTulD8N,"Symphony No. 5 in C Minor, Op. 67: I. Allegro con brio",Originals Beethoven Box,Ludwig van Beethoven,1995-01-01,60,442000,0.247,0.957,0.298,0.9,0.0943,0.157,-15.661,0.0395,97.784,0,4
+5,5fPJEybjtk8fjQzEEUeSPx,Gnossienne: No. 1 (Arr. for Viola and Harp),Gnossienne: No. 1 (Arr. for Viola and Harp),Carrie Frey,2023-03-31,51,216028,0.285,0.973,0.0719,0.933,0.112,0.0529,-19.419,0.0404,91.804,5,4
+6,35cWKZdNsSKxrcLz2oPDRm,"Peer Gynt Suite No. 1, Op. 46: IV. In the Hall of the Mountain King",Mythical Horizons,The City of Prague Philharmonic Orchestra,2023-06-29,47,176738,0.468,0.845,0.155,0.324,0.0838,0.352,-13.959,0.0609,89.456,11,4
+7,4quC8GgYCGt7umJpINBkCf,"Hungarian Dance No. 5 in G Minor, WoO 1",Brahms: Hungarian Dance No.5,Johannes Brahms,2024-03-29,50,187281,0.367,0.701,0.159,0.438,0.236,0.493,-14.049,0.039,124.476,7,4
+8,2NCZGul65RgVTCIcQA94TE,"Radetzky March, Op. 228","Radetzky March, Op. 228",Johann Strauss I,2024-10-09,39,136805,0.6,0.792,0.564,0.0282,0.365,0.874,-9.394,0.0359,111.351,9,4
+9,3IKzcR0MRKVJ5QRjX0EU4m,"Swan Lake (Suite), Op. 20a, TH.219: 3. Scene - Danse de Petits Cygnes",Tchaikovsky: Swan Lake Suites,Pyotr Ilyich Tchaikovsky,2024-03-02,39,92143,0.547,0.967,0.252,0.966,0.144,0.833,-13.305,0.1,204.474,6,4
+10,6Ymt2WH3CVaBs40jC0Ubew,"Barber: Adagio For Strings, Op. 11","Barber: Adagio For Strings, Op. 11",Samuel Barber,2024-04-12,51,483750,0.105,0.88,0.245,0.884,0.18,0.0332,-13.52,0.0374,77.709,10,5
+11,4968cRJBEC7u8Tz5dQFWoR,Fantasia On Greensleeves,Fantasia On Greensleeves,Ralph Vaughan Williams,2024-04-12,44,255831,0.0969,0.828,0.114,0.913,0.166,0.1,-22.092,0.0372,84.054,0,4
+12,0n6YgVRCdQzUJq4WT4dQmZ,"Danse Macabre in G Minor, Op. 40","Danse Macabre in G Minor, Op. 40",Camille Saint-Saëns,2024-02-25,47,450662,0.386,0.9,0.329,0.796,0.123,0.106,-12.977,0.0404,114.731,0,4
+13,2A7qdr3UNP9Pxjcxa5Jj53,Ride of the Valkyries,Wagner: Works for Orchestra,Richard Wagner,2011-11-01,48,283440,0.234,0.944,0.227,0.869,0.0854,0.0703,-18.535,0.0373,101.636,11,3
+14,5FjHmO8izoYkZXDgPnCdZC,Asturias (Leyenda),Autumn’s Gaze,Andrés Madariaga,2023-11-10,49,416946,0.337,0.958,0.151,0.886,0.103,0.228,-21.482,0.0513,120.083,4,3
+15,3nSBqN1Ml2s14g9UdHAoxA,"Symphony No. 9 Op. 95 ""New World Symphony"" IV. Allegro Con Fuoco",Memories of Prague: Dvořák: Serenade For Strings / Smetana: Die Moldau,The City of Prague Philharmonic Orchestra,2009-08-18,45,676544,0.226,0.908,0.238,0.942,0.0957,0.103,-12.339,0.0324,138.123,4,4
+16,5X6dxHyKrguHpYhe4AI7cj,"Salut d'Amour, Op.12","Salut d'Amour, Op.12",Edward Elgar,2024-10-09,37,205125,0.17,0.653,0.304,0.907,0.109,0.0456,-12.629,0.0358,134.156,4,4
+17,70EAyoNV7Coaw5ACubFL3F,Gymnopédie No.1,Gymnopédie No.1,Erik Satie,2024-02-09,55,200031,0.0624,0.845,0.189,0.868,0.0966,0.0501,-17.085,0.0462,62.219,7,5
+18,1ParFlOM2MXGhpIXC71l9V,O rubor sanguinis,O rubor sanguinis,Hildegard von Bingen,2024-08-22,41,100356,0.205,0.948,0.175,1.54e-06,0.123,0.0803,-13.839,0.0407,71.838,7,4
+19,2vx4Vn7sMvwkllWnoT1PXo,Gnossienne: No. 1,Autumn’s Gaze,Andrés Madariaga,2023-11-10,38,208042,0.515,0.993,0.018,0.964,0.106,0.0806,-27.996,0.0521,96.126,5,4
+20,51UP9zgTckoB2M526whpMd,Anhelo,Polaris,José Salinas,2024-09-20,14,199567,0.372,0.991,0.0478,0.927,0.0846,0.0438,-25.747,0.0338,82.815,7,3
+21,7AO4qERV9ib2H9SR4Y1hbt,Carmen: Overture,Epic Orchestra,The City of Prague Philharmonic Orchestra,2010-01-18,42,133461,0.258,0.675,0.476,0.904,0.0924,0.507,-10.006,0.0413,131.008,4,4
+22,3gtQ9EUJfwIUW0IWZJrB1d,"Concerto No. 2 in G Minor, Op. 8, RV 315, “L’estate” (Summer): III. Presto",Vivaldi: The Four Seasons,Antonio Vivaldi,2009-07-01,44,166645,0.265,0.92,0.451,0.826,0.0951,0.5,-11.309,0.0336,145.711,7,3
+23,3z0f4Cx7vad4HVaVwxcKQa,"Peer Gynt Suite No. 1, Op. 46: II. The Death Of Aase",Mythical Horizons,The City of Prague Philharmonic Orchestra,2023-06-29,33,247015,0.0625,0.724,0.12,0.312,0.13,0.0376,-17.702,0.0419,44.109,11,4
+24,3nSBqN1Ml2s14g9UdHAoxA,"Symphony No. 9 Op. 95 ""New World Symphony"" IV. Allegro Con Fuoco",Memories of Prague: Dvořák: Serenade For Strings / Smetana: Die Moldau,The City of Prague Philharmonic Orchestra,2009-08-18,45,676544,0.226,0.908,0.238,0.942,0.0957,0.103,-12.339,0.0324,138.123,4,4
+25,6RLwSsknomGUcImWZePZqa,Masquerade Suite: Waltz,Masquerade Suite: Waltz,Aram Khachaturian,2024-03-16,46,268290,0.186,0.75,0.376,0.939,0.627,0.137,-13.381,0.0421,179.003,4,3
+26,41uSe6NMrbW7EjC6yE0ruU,"Waltzes, Op. 64: No. 2 in C-Sharp Minor. Tempo giusto","Waltzes, Op. 64: No. 2 in C-Sharp Minor. Tempo giusto",Frédéric Chopin,2024-08-23,43,215364,0.339,0.989,0.102,0.91,0.123,0.154,-24.587,0.0442,73.185,1,3
+27,1opYoyv6nJuxTsLARXVBcS,Polaris,Polaris,José Salinas,2024-09-20,40,140239,0.241,0.994,0.043,0.898,0.0893,0.253,-29.254,0.0372,195.341,0,4
+28,1CiQLTserlabm0rYFkfTpn,"2 Arabesques, L. 66: Arabesque No. 1","2 Arabesques, L. 66: Arabesque No. 1",Claude Debussy,2023-03-17,45,255388,0.294,0.994,0.0736,0.929,0.108,0.112,-26.905,0.0481,127.802,9,4
+29,7M6g8OjANjibSLdupnTXO2,"Les chemins de l'amour, ""The Paths of Love"" (Arr. for Flute and Piano)","Les chemins de l'amour, ""The Paths of Love"" (Arr. for Flute and Piano)",Francis Poulenc,2024-08-16,42,227372,0.217,0.99,0.115,0.932,0.129,0.11,-21.376,0.0417,79.351,1,4
+30,5cBlxWA7KWcApq9rs6YKBq,Romanza (Spanish Romance),An Idea,Andrés Madariaga,2022-10-22,44,151413,0.298,0.96,0.0988,0.893,0.109,0.206,-22.028,0.046,113.359,4,4
+31,5YzPNf30PnKgmdwA5H0reP,Après un rêve (arr. Akira Eguchi),Après un rêve,Gabriel Fauré,2024-06-02,35,174914,0.192,0.959,0.179,0.799,0.13,0.0717,-15.018,0.0414,102.643,5,4
+32,5y4lSt7RzBCxt5JjQUEKAp,Chôros No. 1,An Idea,Andrés Madariaga,2022-10-22,40,294000,0.348,0.959,0.198,0.883,0.124,0.176,-20.956,0.0517,83.057,4,3
+33,3IKzcR0MRKVJ5QRjX0EU4m,"Swan Lake (Suite), Op. 20a, TH.219: 3. Scene - Danse de Petits Cygnes",Tchaikovsky: Swan Lake Suites,Pyotr Ilyich Tchaikovsky,2024-03-02,39,92143,0.547,0.967,0.252,0.966,0.144,0.833,-13.305,0.1,204.474,6,4
+34,2yapbtHyRXtnkHgjbwiXPF,"Fantaisie, Op. 79: Allegro","Fauré: Fantaisie, Op. 79",Gabriel Fauré,2024-08-23,38,192798,0.432,0.987,0.16,0.923,0.158,0.597,-18.088,0.0419,137.7,0,4
+35,2F8zvO8WFzQPGTgeh54Yqv,O Euchari in leta via,O Euchari in leta via,Hildegard von Bingen,2024-08-22,39,123869,0.31,0.97,0.177,0.0,0.103,0.29,-12.915,0.0391,83.698,10,1
+36,0OkV3wL5dbW3fiY8IUKmVw,"Serenade in G Major, K. 525 ""Eine kleine Nachtmusik"": I. Allegro","Mozart: Symphony No. 40, Eine Kleine Nachtmusick & Other Mozart Favorites",Wolfgang Amadeus Mozart,2009-07-16,36,356249,0.499,0.927,0.288,0.949,0.0815,0.415,-10.85,0.0372,133.219,7,4
+37,4Qs9FqBjUbiqRdimNv19pK,Recuerdos de la Alhambra,An Idea,Andrés Madariaga,2022-10-22,39,325271,0.209,0.843,0.294,0.88,0.0948,0.269,-19.431,0.0359,78.974,2,3
+38,0Z6877OqQFGXowmMhfNS9a,"Pavane, Op. 50",Faure: Pavane / Sicilienne,Gabriel Fauré,2024-04-04,36,422183,0.171,0.971,0.0479,0.932,0.117,0.0523,-23.218,0.0409,126.625,6,4
+39,57kvtb1ltRYbJfaE1SMqks,"Concerto No. 1 in E Major, Op. 8, RV 269, “La primavera” (Spring) : II. Largo",Vivaldi: The Four Seasons,Antonio Vivaldi,2009-07-01,33,148930,0.25,0.961,0.211,0.346,0.0966,0.079,-14.489,0.0401,84.763,1,5
+40,417uD2jzW3c4oTrOauWumy,"Sicilienne, Op. 78",Faure: Pavane / Sicilienne,Gabriel Fauré,2024-04-04,35,244075,0.116,0.871,0.0917,0.93,0.107,0.0639,-23.721,0.0405,83.368,7,4
+41,7elGa98KXTWCCkvbHVjMs3,"Concerto No. 1 in E Major, Op. 8, RV 269, “La primavera” (Spring) : I. Allegro",Vivaldi: The Four Seasons,Antonio Vivaldi,2009-07-01,43,191544,0.477,0.829,0.218,0.785,0.344,0.313,-10.728,0.0342,106.772,4,4
+42,1JCSHol2fd785RZGIt6G39,The Arts and the Hours,The Arts and the Hours,Jean-Philippe Rameau,2024-04-04,33,461523,0.169,0.538,0.232,0.768,0.246,0.0833,-15.936,0.0375,113.086,2,4
+43,1ZauqNrrbC4pYMwMtA2S27,Serenade for Strings in E Major II. Waltz Op. 22,Memories of Prague: Dvořák: Serenade For Strings / Smetana: Die Moldau,The City of Prague Philharmonic Orchestra,2009-08-18,40,407544,0.176,0.872,0.109,0.893,0.168,0.117,-17.132,0.0411,169.017,9,3
+44,7cXWUfkLQlMJXdVPDiJTdS,Cavalleria Rusticana: Intermezzo,Cavalleria Rusticana: Intermezzo,Pietro Mascagni,2024-04-04,35,195690,0.132,0.802,0.244,0.945,0.234,0.0369,-14.183,0.0374,73.26,5,3
+45,1yLuvfTQPqmyG0usSuVQYP,"Hungarian Dance No. 1 in G Minor, WoO 1","Hungarian Dance No. 1 in G Minor, WoO 1",Johannes Brahms,2024-03-29,34,215735,0.276,0.792,0.2,0.882,0.52,0.364,-16.671,0.0372,125.779,7,4
+46,4EOSoJQe6HhU1PejD8pr42,"Ouvertüre nach Französischer Art, BWV 831: 8. Echo",Enfleurage,Arseniy Gusev,2023-04-26,39,187158,0.514,0.978,0.192,0.889,0.126,0.938,-19.695,0.0548,97.211,11,4
+47,4vGAA5ZOgkD0mNJOEfNG0L,"Swan Lake (Suite), Op. 20a, TH.219: 2. Scene - Valse in A Major",Tchaikovsky: Swan Lake Suites,Pyotr Ilyich Tchaikovsky,2024-03-02,42,467476,0.27,0.907,0.179,0.489,0.133,0.147,-13.32,0.0356,99.892,9,1
+48,1Sjrt5860is34jNmAdjl5W,Barcarolle,Barcarolle,Jacques Offenbach,2024-04-04,35,216344,0.232,0.834,0.089,0.805,0.384,0.0898,-23.644,0.0305,76.595,2,3
+49,2r8oNeRBsSlXG6LiNwMbyw,"Symphony No. 40 In G Minor: I. Allegro, K. 550",The Glory of Mozart,Wolfgang Amadeus Mozart,2010-01-18,36,426171,0.351,0.944,0.307,0.946,0.115,0.19,-13.204,0.033,114.631,7,4
+50,4NhuGX3w3HxYEbI1WMmws2,"Two Pieces, Op. 47: 1. Lotus Land","Two Pieces, Op. 47: 1. Lotus Land",Cyril Scott,2023-03-28,40,307411,0.384,0.986,0.0215,0.948,0.105,0.0358,-26.477,0.0469,68.027,3,3
+51,2aKZ0gsXIAo8WkAn7w8Wp4,Faun’s Riddle (Acertijo del Fauno),Faun’s Riddle (Acertijo del Fauno),Julián Fueyo,2023-06-14,34,146760,0.296,0.995,0.0497,0.899,0.0847,0.0371,-31.104,0.0457,104.386,6,4
+52,0ewKoLCxSmhkYvwNKMtmDj,"Intermezzo, Op. 117, No. 2 in B-Flat Minor",Enfleurage,Arseniy Gusev,2023-04-26,31,310043,0.286,0.988,0.0114,0.955,0.123,0.0395,-30.29,0.0412,84.683,3,4
+53,7peGuJtU76TKrTYpwmxGBU,Lagoon of Forgotten Dreams (Laguna de los Sueños Olvidados),Lagoon of Forgotten Dreams (Laguna de los Sueños Olvidados),Julián Fueyo,2023-02-24,45,142444,0.342,0.991,0.013,0.935,0.144,0.0982,-30.436,0.0347,76.632,2,4
+54,2PVGV2o83ZFdwM0E6H4AiW,La Gioconda / Act 3: Dance of the Hours,La Gioconda / Act 3: Dance of the Hours,Amilcare Ponchielli,2024-03-29,37,85506,0.618,0.93,0.11,0.411,0.503,0.413,-17.787,0.055,65.497,4,4
+55,3766ThQKYzY9qy1GmyxJPg,"Prélude, Fugue et Variation, Op. 18: Prélude (Arr. Bauer)",Enfleurage,Arseniy Gusev,2023-04-26,31,267373,0.505,0.995,0.013,0.966,0.076,0.293,-30.228,0.0427,66.385,11,4
+56,22Jl3U3TwB9jYy0rPZiT6C,"The Nutcracker, Op. 71, Act II, Scene XIV: Waltz of the Flowers",Classical Christmas: Greatest Orchestral Holiday Classics,Various Artists,2010-10-18,52,432569,0.17,0.929,0.151,0.938,0.0532,0.127,-17.12,0.0448,176.716,2,3
+57,0tJMJJdG2Vo0aHrEFy86nw,"Sonatine, M. 40: II. Mouvement de menuet",Enfleurage,Arseniy Gusev,2023-04-26,32,198299,0.369,0.99,0.0346,0.948,0.097,0.0988,-25.467,0.0385,50.574,1,4
+58,1JYwhewZxE6sD338aNe3Bm,La Vida Breve: Danza Española No. 1 (Arr. for Harp & Guitar),¡Viva la danza!,Duo Multicorde,2021-11-01,33,219196,0.359,0.978,0.149,0.941,0.0946,0.218,-20.64,0.0345,96.086,9,3
+59,5to42me5301ochDzLEDeJv,"Le nozze di Figaro, K.492: Overture","Le nozze di Figaro, K.492: Overture",Wolfgang Amadeus Mozart,2024-02-17,39,264734,0.329,0.843,0.211,0.9,0.113,0.295,-14.296,0.0343,132.968,2,4
+60,6EOwtE7JCREMWtntEFR4ho,"Piano Sonata No. 8 In A Minor: I. Allegro Maestoso, K. 310",The Glory of Mozart,Wolfgang Amadeus Mozart,2010-01-18,11,318175,0.309,0.952,0.412,0.936,0.0933,0.382,-11.335,0.0296,142.082,9,4
+61,3R4Z0U3SgolyJ9s3ynWfGw,"Peer Gynt Suite No. 1, Op. 46: I. Morning Mood",Mythical Horizons,The City of Prague Philharmonic Orchestra,2023-06-29,42,235662,0.21,0.904,0.122,0.933,0.117,0.0397,-16.105,0.0376,70.72,4,3
+62,4sueBN15eHYAQvys4Kfl8T,"Waltz in A-Flat Major, Op. 39 No. 15","16 Waltzes, Op. 39 - No. 15 in A-Flat Major",Johannes Brahms,2023-05-11,35,57246,0.385,0.987,0.0656,0.951,0.103,0.349,-24.516,0.0626,64.886,8,3
+63,4ohUFvRY2eR17Lxq4p0Xrt,"Rêverie, L.68","Rêverie, L.68",Claude Debussy,2023-02-17,37,241286,0.36,0.993,0.0636,0.946,0.106,0.148,-26.695,0.0506,112.856,5,4
+64,7xYKMuWbTwzMIsmUCM5neF,"On the Beautiful Blue Danube Waltz, Op. 314",Epic Orchestra,The City of Prague Philharmonic Orchestra,2010-01-18,37,675594,0.204,0.945,0.161,0.876,0.0818,0.11,-13.362,0.0364,175.859,2,3
+65,62RyPhW73NShV3grNMYlCz,"La Source, Op.44","La Source, Op.44",Alphonse Hasselmans,2023-12-10,34,267784,0.242,0.973,0.149,0.825,0.107,0.0477,-20.557,0.0353,75.819,5,3
+66,5gejjt3uQ3tiyvxnjLyVuR,"Prelude, BWV 998",Autumn’s Gaze,Andrés Madariaga,2023-11-10,31,205142,0.309,0.969,0.152,0.962,0.118,0.24,-24.198,0.0515,93.584,3,1
+67,15E2QgeTo2OsZirxbK24FQ,"String Quartet No. 8 in F Major: IV. Allegro, K. 168",The Glory of Mozart,Wolfgang Amadeus Mozart,2010-01-18,31,114391,0.544,0.945,0.414,0.779,0.148,0.815,-12.96,0.0345,129.117,5,4
+68,2NERuuRckm3vIwufXnu9uP,"Concerto No. 4 in F Minor, Op. 8, RV 297, ""L'inverno"" (Winter): III. Allegro",Vivaldi: The Four Seasons,Antonio Vivaldi,2009-07-01,33,205057,0.294,0.913,0.174,0.154,0.29,0.117,-13.652,0.0409,92.674,5,3
+69,7AO4qERV9ib2H9SR4Y1hbt,Carmen: Overture,Epic Orchestra,The City of Prague Philharmonic Orchestra,2010-01-18,42,133461,0.258,0.675,0.476,0.904,0.0924,0.507,-10.006,0.0413,131.008,4,4
+70,1ZKfC5G9lYZ38agIuiGYCY,"The Nutcracker, Op. 71, Act II, Scene XV: Dance of the Sugar-Plum Fairy",Classical Christmas: Greatest Orchestral Holiday Classics,Various Artists,2010-10-18,42,114209,0.47,0.908,0.0919,0.923,0.0585,0.0727,-21.768,0.0356,116.286,4,4
+71,01LfK4VZNyUcSM4JEnTqTc,Viejo Zortzico,¡Viva la danza!,Duo Multicorde,2021-11-01,33,340311,0.284,0.984,0.0605,0.893,0.12,0.0533,-19.572,0.0463,75.827,0,3
+72,6LG4mo88s1W4NVgoCg8BN7,Un Día de Noviembre,Autumn’s Gaze,Andrés Madariaga,2023-11-10,39,330527,0.349,0.984,0.0781,0.949,0.108,0.142,-20.418,0.0475,77.772,9,3
+73,4zJ6esgBOzoDa7tDmbQ5zV,"Symphony No. 40 In G Major: IV. Allegro Finale, K. 550",The Glory of Mozart,Wolfgang Amadeus Mozart,2010-01-18,20,406354,0.39,0.96,0.343,0.931,0.0967,0.3,-12.623,0.037,130.818,7,4
+74,0LglYHppprzwRfr5NJA30y,"The Nutcracker, Op. 71, Act I, Scene II: March",Classical Christmas: Greatest Orchestral Holiday Classics,Various Artists,2010-10-18,42,154435,0.598,0.957,0.227,0.945,0.0328,0.562,-13.784,0.0351,70.028,4,4
+75,2AesyFXaHB5kI0s6zCNPaR,Gymnopédie No.1,Autumn’s Gaze,Andrés Madariaga,2023-11-10,40,208684,0.567,0.994,0.0131,0.957,0.102,0.142,-27.406,0.0749,76.423,4,3
+76,2mQWMTbWoEmqUVKAkW1Bxv,Méditation from Thaïs (arr. for violin & harp),Rose Garden,Lily Honigberg,2023-06-22,32,294263,0.142,0.914,0.182,0.0772,0.0979,0.0955,-14.738,0.0426,81.565,4,5
+77,5CFotcNUp0goJUIQD9mA2x,"Oh Come, All Ye Faithful",Classical Christmas: Greatest Orchestral Holiday Classics,Various Artists,2010-10-18,19,147510,0.394,0.985,0.0846,0.924,0.0647,0.205,-13.164,0.0296,104.862,2,4
+78,262dNfumWroIA8hkBbXtkn,"Lyric Pieces, Book II, Op. 38: No. 7, Waltz",Enfleurage,Arseniy Gusev,2023-04-26,33,74793,0.394,0.995,0.0132,0.955,0.0877,0.253,-35.544,0.0541,137.743,4,4
+79,4fCgUwtcBQJycmvgeDU4tn,"La plus que lente, L. 121 (arr. for violin & harp)",Rose Garden,Lily Honigberg,2023-06-22,38,259272,0.284,0.959,0.177,0.0177,0.0785,0.124,-14.528,0.0454,129.415,7,5
+80,2KE3hsRXyWPIfZ2bx0MVXR,Villanesca (Arr. for Harp & Guitar),¡Viva la danza!,Duo Multicorde,2021-11-01,31,323221,0.573,0.984,0.074,0.908,0.0859,0.119,-22.221,0.0542,92.5,7,4
+81,1930AH4hS9RcKP5K6QeqiO,"Piano Sonata No. 10 In C Major: I. Allegro Moderato, K. 330",The Glory of Mozart,Wolfgang Amadeus Mozart,2010-01-18,31,396043,0.435,0.986,0.203,0.925,0.116,0.577,-14.871,0.0361,130.663,0,4
+82,4umtLH4mrp4awf9mb4Gvcb,Suite Mágica: II. Vals,¡Viva la danza!,Duo Multicorde,2021-11-01,31,123344,0.389,0.985,0.121,0.94,0.121,0.293,-24.83,0.0357,96.662,6,4
+83,3jYRflGk6qmjzq1hfSmiVB,"Piano Sonata No. 8 In A Minor: III. Presto, K. 310",The Glory of Mozart,Wolfgang Amadeus Mozart,2010-01-18,31,169308,0.367,0.968,0.499,0.952,0.0994,0.73,-11.051,0.0342,107.16,9,4
+84,24M5Xk2il3L9NEycnKE3cg,"Peer Gynt Suite No. 1, Op. 46: III. Anitra's Dance",Mythical Horizons,The City of Prague Philharmonic Orchestra,2023-06-29,33,142537,0.349,0.839,0.195,0.087,0.176,0.203,-18.65,0.04,143.251,4,3
+85,7FsksSVGUecef3IeSPEjp9,"Pavane pour une infante défunte, M. 19",Enfleurage,Arseniy Gusev,2023-04-26,37,389177,0.438,0.989,0.00573,0.953,0.0792,0.0931,-32.085,0.0498,102.927,4,4
+86,2yiEeNS3tsyU1sAlnVzqzC,"Magic Flute Overture, K. 620",The Glory of Mozart,Wolfgang Amadeus Mozart,2010-01-18,8,208383,0.175,0.976,0.123,0.902,0.189,0.121,-15.732,0.04,85.078,10,4
+87,3pTUjjMCleuOt2bKhMNHjH,"Symphony No. 9 in E Minor, Op. 95 ""From the New World"": IV. Allegro con fuoco",Epic Orchestra,The City of Prague Philharmonic Orchestra,2010-01-18,32,676544,0.226,0.908,0.238,0.942,0.0957,0.103,-12.339,0.0324,138.123,4,4
+88,2YcBjCelBsOa5v3A3xKh9n,Slavonic Dances No. 1 Op. 46,Memories of Prague: Dvořák: Serenade For Strings / Smetana: Die Moldau,The City of Prague Philharmonic Orchestra,2009-08-18,10,257044,0.325,0.843,0.315,0.879,0.233,0.31,-13.012,0.045,123.45,0,3
+89,0U45AuIBSdtlQw9wmyliPv,"Brandenburg Concerto No. 3 in G Major, BWV 1048: I. Allegro Moderato",The Glory of Bach,Johann Sebastian Bach,2010-03-21,34,399431,0.418,0.84,0.317,0.895,0.128,0.447,-11.701,0.0364,83.526,7,4
+90,7HE03zOd4X9ORs0oANpaEc,"Water Music Suite No. 1 in F Major, HWV 348: V. Air",The Glory of Handel,George Frideric Handel,2020-11-04,30,125120,0.0809,0.89,0.243,0.945,0.148,0.282,-16.152,0.0424,37.038,5,4
+91,5EpLuF3594qnpqeIfvJ9yH,Oriental (Arr. for Harp & Guitar),¡Viva la danza!,Duo Multicorde,2021-11-01,32,299444,0.408,0.982,0.0335,0.907,0.109,0.0614,-24.718,0.039,93.534,4,4
+92,2w7nmy1LVOrgQDVY3jDvLN,"Concerto Grosso In C, Alexander's Feast, HWV 318: I. Allegro",The Glory of Handel,George Frideric Handel,2020-11-04,31,253120,0.594,0.907,0.165,0.0437,0.101,0.698,-14.197,0.0324,98.515,7,4
+93,2RgTdATaLxh6PxJQ3ODMh9,Don Giovanni Overture,Memories of Prague: Dvořák: Serenade For Strings / Smetana: Die Moldau,The City of Prague Philharmonic Orchestra,2009-08-18,9,354213,0.34,0.917,0.189,0.944,0.0858,0.203,-13.144,0.0346,124.05,2,4
+94,2I32YvCQa04JV02VkAwfzz,Trois morceaux pour piano: II. D'un jardin clair,Enfleurage,Arseniy Gusev,2023-04-26,34,140027,0.425,0.981,0.0127,0.968,0.0982,0.087,-28.062,0.0445,95.725,11,4
+95,0MCCoNEKyjg9m3pUkh3yih,"Symphony No. 40 in G Minor, K. 550: IV. Finale (Allegro assai)","Mozart: Symphony No. 40, Eine Kleine Nachtmusick & Other Mozart Favorites",Wolfgang Amadeus Mozart,2009-07-16,30,406354,0.39,0.96,0.343,0.931,0.0967,0.3,-12.623,0.037,130.818,7,4
+96,5PtSjUpN1hp7dzAwBaFxcY,"Orchestral Suite No. 1 in C Major, BWV 1066: IV. Forlane",The Glory of Bach,Johann Sebastian Bach,2010-03-21,30,146523,0.202,0.953,0.286,0.952,0.0675,0.362,-10.389,0.0398,82.797,0,4
+97,4HxVnQIwUu3yzS21nQIhCC,"Má Vlast: Vltava ""Die Moldau""",Memories of Prague: Dvořák: Serenade For Strings / Smetana: Die Moldau,The City of Prague Philharmonic Orchestra,2009-08-18,37,633401,0.194,0.926,0.316,0.899,0.161,0.0387,-12.458,0.0354,104.239,4,4
+98,0GVKXM9Jngisk1SPfgDuVA,"Holberg Suite, Op. 40: IV. Air (Andante religioso)",Mythical Horizons,The City of Prague Philharmonic Orchestra,2023-06-29,32,398945,0.153,0.904,0.153,0.908,0.116,0.0375,-14.62,0.04,138.592,7,4
+99,45eOO5bJsNLhXmcLJhucHh,"Messiah, HWV 56, Pt. 2: Hallelujah Chorus",The Glory of Handel,George Frideric Handel,2020-11-04,31,222253,0.431,0.944,0.299,0.79,0.114,0.354,-13.361,0.0296,107.097,2,4
+100,1EQFOouqdKYdpbNoOHRVO2,abcdefu (angrier),abcdefu (angrier),GAYLE,2021-09-24,62,159836,0.671,0.0658,0.599,0.0,0.101,0.448,-6.18,0.0405,121.849,4,3
+101,66Ae3p10Em3KdTaM787Ptx,this is what heartbreak feels like,this is what heartbreak feels like (432Hz),JVKE,2022-10-04,60,157636,0.707,0.578,0.474,0.0,0.11,0.538,-4.603,0.0672,109.991,1,4
+102,76cy1WJvNGJTj78UqeA5zr,IDGAF,Dua Lipa (Deluxe),Dua Lipa,2017-06-02,77,217946,0.836,0.0403,0.544,0.0,0.0824,0.51,-5.975,0.0943,97.028,7,4
+103,6Jkm5kUldvIqxzI1Pa7nXH,10 Things I Hate About You,10 Things I Hate About You,Leah Kate,2022-03-23,4,157138,0.544,0.00991,0.786,0.0,0.169,0.446,-2.97,0.0501,153.967,8,4
+104,5MWXOo8DJwgODtPGaietNz,cinderella's dead,cinderella's dead,EMELINE,2022-04-01,67,120666,0.596,0.33,0.607,0.0,0.103,0.531,-6.179,0.168,119.882,6,4
+105,6FZDfxM3a3UCqtzo5pxSLZ,Without Me,Manic,Halsey,2020-01-17,77,201660,0.752,0.293,0.488,9.2e-06,0.0936,0.533,-7.05,0.0705,136.07,6,4
+106,20R4HfKloPKgXDqU7UKk3x,Therefore I Am,Happier Than Ever,Billie Eilish,2021-07-30,73,173539,0.879,0.227,0.365,0.135,0.0583,0.663,-7.781,0.0924,94.016,2,4
+107,7aGyRfJWtLqgJaZoG9lJhE,Mad at Disney,Mad at Disney,salem ilese,2020-07-24,2,136838,0.738,0.424,0.621,7.39e-06,0.692,0.715,-7.313,0.0486,113.968,0,4
+108,4ZtFanR9U6ndgddUvNcjcG,good 4 u,SOUR,Olivia Rodrigo,2021-05-21,82,178146,0.563,0.335,0.664,0.0,0.0849,0.688,-5.044,0.154,166.928,9,4
+109,6WrI0LAC5M1Rw2MnX2ZvEg,Don't Start Now,Don't Start Now,Dua Lipa,2019-10-31,71,183290,0.794,0.0125,0.793,0.0,0.0952,0.677,-4.521,0.0842,123.941,11,4
+110,0AUvWawuP0ibk4SQ3sIZjk,Daisy,Daisy,Ashnikko,2020-07-09,61,146523,0.834,0.235,0.663,0.0,0.372,0.774,-6.143,0.133,121.876,8,4
+111,4fkM7M4Uo5AUASnnsRC7EZ,Not Your Barbie Girl,Not Your Barbie Girl,Ava Max,2018-08-13,63,186520,0.745,0.103,0.642,0.0,0.0335,0.35,-4.138,0.0506,120.063,6,4
+112,534P1wgOzlgSogu8At0B6b,I've Had Enough,I've Had Enough,Melina KB,2021-03-12,58,210828,0.742,0.26,0.607,0.0,0.0884,0.667,-5.744,0.0686,170.055,10,3
+113,3HWzoMvoF3TQfYg4UPszDq,Truth Hurts,Cuz I Love You (Super Deluxe),Lizzo,2019-04-19,68,173325,0.715,0.11,0.624,0.0,0.123,0.412,-3.046,0.114,158.087,4,4
+114,0yvPEnB032fojLfVluFjUv,Sorry Not Sorry,Tell Me You Love Me,Demi Lovato,2017-09-29,70,203760,0.705,0.0242,0.643,0.0,0.262,0.884,-6.929,0.232,143.944,11,4
+115,6xsEAm6w9oMQYYg3jkEkMT,Bad Blood,Bad Blood,Taylor Swift,2015-05-17,64,200106,0.654,0.0294,0.655,0.0,0.139,0.221,-7.388,0.106,170.16,11,4
+116,23T0OX7QOiIUFShSzbJ5Uo,I Hope,Goldmine,Gabby Barrett,2020-06-19,68,210772,0.466,0.0951,0.536,0.0,0.114,0.377,-6.227,0.0429,75.998,6,4
+117,45bE4HXI0AwGZXfZtMp8JR,you broke me first,you broke me first,Tate McRae,2020-04-17,18,169265,0.667,0.785,0.373,0.0,0.0906,0.0823,-9.389,0.05,124.148,4,4
+118,3OHfY25tqY28d16oZczHc8,Kill Bill,SOS,SZA,2022-12-09,77,153946,0.644,0.0543,0.728,0.169,0.161,0.43,-5.75,0.0351,88.993,8,4
+119,5Z2MiIZ5I3jJvvmeWMLbOQ,Escapism.,Escapism. / The Thrill Is Gone.,RAYE,2022-10-12,24,272373,0.538,0.138,0.742,4.67e-05,0.0934,0.25,-5.355,0.114,96.107,2,4
+120,2vwlzO0Qp8kfEtzTsCXfyE,Wrecking Ball,Bangerz (Deluxe Version),Miley Cyrus,2013-10-04,78,221360,0.53,0.407,0.422,0.0,0.107,0.349,-6.262,0.0342,119.964,5,4
+121,1r9xUipOqoNwggBpENDsvJ,Enemy (with JID) - from the series Arcane League of Legends,Enemy (with JID) [from the series Arcane League of Legends],Imagine Dragons,2021-10-28,73,173381,0.728,0.237,0.783,0.0,0.434,0.555,-4.424,0.266,77.011,11,4
+122,6wNeKPXF0RDKyvfKfri5hf,Dollhouse,Cry Baby (Deluxe Edition),Melanie Martinez,2015-08-14,72,231853,0.725,0.22,0.708,0.0,0.777,0.555,-5.331,0.0756,130.029,5,4
+123,0lUSd7TCG8srh6HpIAEIWL,Power,Glory Days (Expanded Edition),Little Mix,2016-11-18,70,247840,0.566,0.0372,0.855,0.000157,0.181,0.517,-4.016,0.211,172.966,7,4
+124,59tskctgqUmjCWAwhzYAFm,Looking at Me,Singular Act II,Sabrina Carpenter,2019-07-19,77,181120,0.681,0.00398,0.798,5.11e-06,0.0542,0.516,-4.367,0.0375,105.99,2,4
+125,5lAnYvAIkSDNXqfo7DyFUm,Ain't Shit,Planet Her,Doja Cat,2021-06-25,73,174253,0.855,0.506,0.488,0.0,0.347,0.619,-4.601,0.208,124.097,3,4
+126,7FGIEAVXfegxngH9Jg6VwA,What A Shame,What A Shame,Leyla Blue,2020-12-09,59,177200,0.699,0.315,0.463,0.0,0.0803,0.565,-7.828,0.475,143.99,0,4
+127,360Wr96ywrCQq4kTAJ8Pq6,Pacify Her,Cry Baby (Deluxe Edition),Melanie Martinez,2015-08-14,74,220013,0.576,0.0467,0.593,0.000767,0.237,0.373,-6.024,0.0306,157.993,9,4
+128,0Qh38w01QRXK6KHIv0e3hb,What About Us,Beautiful Trauma,P!nk,2017-10-13,73,269600,0.491,0.0281,0.588,2.01e-06,0.0906,0.193,-6.177,0.0506,113.608,1,4
+129,198ZUXC5jCr5DiQNlKBiNV,Get Down,Six: The Musical (Studio Cast Recording),SIX,2018-08-31,57,253993,0.898,0.00986,0.406,0.0,0.0509,0.39,-9.905,0.102,102.985,4,4
+130,23L5CiUhw2jV1OIMwthR3S,In the Name of Love,In the Name of Love,Martin Garrix,2016-07-29,78,195706,0.501,0.109,0.519,0.0,0.454,0.168,-5.88,0.0409,133.99,4,4
+131,4svaKoxMMP7ImmKrD5hfQu,Victoria's Secret,Victoria’s Secret,Jax,2022-06-30,61,175934,0.586,0.00655,0.556,0.0,0.0836,0.517,-7.639,0.0592,167.018,6,4
+132,3Jb00jDoYOA7xHq4L2mWpZ,AVA (Sped Up),AVA (Sped Up),Natalie Jane,2022-12-02,40,137594,0.675,0.147,0.477,4.76e-05,0.0864,0.334,-5.684,0.0377,100.748,11,4
+133,78qd8dvwea0Gosb6Fe6j3k,Boss Bitch,Boss Bitch,Doja Cat,2020-01-23,74,134239,0.707,0.127,0.955,0.0,0.202,0.575,-4.593,0.222,125.989,10,4
+134,1V6gIisPpYqgFeWbMLI0bA,Heart Attack,Demi,Demi Lovato,2013-01-01,78,210840,0.504,0.0738,0.785,0.0,0.239,0.502,-4.802,0.104,173.968,8,4
+135,1ue7zm5TVVvmoQV8lK6K2H,Pretty Girl,Pretty Girl,Maggie Lindemann,2016-09-30,58,219428,0.456,0.298,0.764,0.0,0.229,0.383,-3.584,0.148,124.971,10,5
+136,4uqh9bualXNHXXwO2wPorc,Daisies,Daisies,Katy Perry,2020-05-15,53,173123,0.639,0.0837,0.546,0.0,0.122,0.149,-5.382,0.0407,122.179,1,4
+137,2YyLNljkMy2viVcXoFGTDY,Tears of Gold,Tears of Gold,Faouzia,2019-11-20,64,176117,0.587,0.128,0.664,0.0,0.323,0.617,-5.698,0.0523,149.957,5,4
+138,27rdGxbavYJeBphck5MZAF,Nothing Breaks Like a Heart (feat. Miley Cyrus),Nothing Breaks Like a Heart (feat. Miley Cyrus),Mark Ronson,2018-11-30,69,217466,0.601,0.00987,0.794,1.36e-06,0.388,0.244,-5.844,0.0671,114.066,7,4
+139,5r0cOO77xkM5jjHk67Z2Lt,"Baby, I'm Jealous (feat. Doja Cat)",Better Mistakes,Bebe Rexha,2021-05-07,58,175873,0.737,0.0398,0.867,0.0,0.32,0.506,-2.259,0.0458,98.05,11,4
+140,6HU7h9RYOaPRFeh0R3UeAr,deja vu,SOUR,Olivia Rodrigo,2021-05-21,83,215506,0.442,0.584,0.612,5.7e-06,0.37,0.178,-7.222,0.112,180.917,2,4
+141,5ajjAnNRh8bxFvaVHzpPjh,Reckless,Reckless,Madison Beer,2021-06-04,71,203384,0.386,0.807,0.426,0.0,0.14,0.261,-6.642,0.0363,180.104,3,3
+142,12cZWGf5ZgLcKubEW9mx5q,HOPE,HOPE,NF,2023-02-16,66,264473,0.546,0.396,0.787,0.0,0.0619,0.497,-4.023,0.212,100.559,0,3
+143,6IbnUaczZBT34DhaD6S18F,Bubblegum Bitch,Electra Heart (Deluxe),MARINA,2012-04-27,74,154666,0.495,0.000219,0.856,0.0,0.103,0.609,-5.123,0.0311,158.024,0,4
+144,59CfNbkERJ3NoTXDvoURjj,Boyfriend,Boyfriend,Dove Cameron,2022-02-11,71,153000,0.345,0.232,0.612,0.0,0.194,0.232,-6.543,0.0608,179.773,7,3
+145,5NEbSFTrxg63xy3j7jiQAe,I'm an Albatraoz,I'm an Albatraoz,CDM Project,2019-01-16,22,166000,0.745,0.0895,0.739,0.0037,0.0844,0.612,-9.095,0.0572,128.011,0,4
+146,4eWQlBRaTjPPUlzacqEeoQ,Never Be the Same,Camila,Camila Cabello,2018-01-12,75,226973,0.637,0.181,0.713,0.000637,0.137,0.243,-4.333,0.0747,129.923,0,4
+147,7k4t7uLgtOxPwTpFmtJNTY,Tusa,Tusa,KAROL G,2019-11-07,72,200960,0.803,0.295,0.715,0.000134,0.0574,0.574,-3.28,0.298,101.085,2,4
+148,5OLcsBO28uWHMzS0EEeZNp,Little Girl Gone,Little Girl Gone,CHINCHILLA,2023-04-21,3,188596,0.706,0.177,0.675,0.0,0.0852,0.516,-6.351,0.237,159.961,1,4
+149,4OafepJy2teCjYJbvFE60J,breathin,Sweetener,Ariana Grande,2018-08-17,68,198160,0.568,0.0211,0.656,1.37e-05,0.213,0.364,-5.413,0.0433,100.049,8,4
+150,4atLCK41iF1xFDydQ6WliG,PS5,PS5 (Super Pack),salem ilese,2022-07-06,0,152214,0.602,0.0131,0.642,5.33e-06,0.0668,0.54,-5.404,0.211,175.978,2,4
+151,7y9iMe8SOB6z3NoHE2OfXl,Bad At Love,hopeless fountain kingdom (Deluxe),Halsey,2017-06-02,23,181279,0.675,0.0604,0.751,0.0,0.0893,0.612,-3.539,0.0296,118.384,0,4
+152,6ZtiywT2Qm50a1uR0jlY35,"Sit Still, Look Pretty","Sit Still, Look Pretty",Daya,2016-10-07,33,207761,0.846,0.286,0.734,8.27e-05,0.425,0.717,-3.601,0.108,90.98,2,4
+153,7vu0JkJh0ldukEYbTVcqd0,Issues,Nervous System,Julia Michaels,2017-07-28,72,176320,0.728,0.401,0.415,0.0,0.0616,0.455,-6.852,0.0639,114.145,8,4
+154,7w3rcy1CrATkUgCoItTbId,Love Lies,"Love, Simon (Original Motion Picture Soundtrack)",Various Artists,2018-03-16,43,201253,0.702,0.108,0.573,0.0,0.114,0.394,-7.748,0.049,143.916,6,4
+155,72jCZdH0Lhg93z6Z4hBjgj,I Knew You Were Trouble.,Red,Taylor Swift,2012-10-22,59,217973,0.622,0.00454,0.469,2.25e-06,0.0398,0.679,-6.798,0.0363,77.019,3,4
+156,3yOlyBJuViE2YSGn3nVE1K,My Oh My (feat. DaBaby),Romance,Camila Cabello,2019-12-06,72,170746,0.724,0.018,0.491,1.29e-05,0.0887,0.383,-6.024,0.0296,105.046,8,4
+157,3nqQXoyQOWXiESFLlDF1hG,Unholy (feat. Kim Petras),Unholy (feat. Kim Petras),Sam Smith,2022-09-22,77,156943,0.719,0.0138,0.454,4.83e-06,0.318,0.224,-7.384,0.0707,131.007,2,4
+158,0yLdNVWF3Srea0uzk55zFn,Flowers,Flowers,Miley Cyrus,2023-01-13,25,200454,0.707,0.0632,0.681,5.15e-06,0.0322,0.646,-4.325,0.0668,117.999,0,4
+159,5vTPxzm4h2bY9rYyVrGEU5,Really Don't Care,Demi,Demi Lovato,2013-01-01,68,201600,0.706,0.123,0.728,0.0,0.185,0.851,-3.602,0.0852,121.017,7,4
+160,3o9kpgkIcffx0iSwxhuNI2,Numb Little Bug,Numb Little Bug,Em Beihold,2022-01-28,67,169237,0.742,0.327,0.527,0.0,0.25,0.638,-6.892,0.0769,84.974,8,4
+161,1c8gk2PeTE04A1pIDH9YMk,Rolling in the Deep,21,Adele,2011-01-24,77,228093,0.73,0.138,0.769,0.0,0.0473,0.507,-5.114,0.0298,104.948,8,4
+162,6xlOnm5MITIKtixzJW8R0j,DARKSIDE,Wars In A Wonderland,Neoni,2021-08-20,73,168000,0.533,0.31,0.714,1.58e-06,0.0869,0.454,-6.472,0.0608,165.037,7,3
+163,3MoV1UsAJmz64LHqyiRMp0,Say My Name,7,David Guetta,2018-09-14,53,198946,0.703,0.137,0.66,0.0,0.192,0.79,-5.119,0.123,95.031,10,4
+164,6bTbMMEShyGyrcuIwtBlpA,Living Hell,Dolls EP,Bella Poarch,2022-08-12,59,174002,0.729,0.598,0.551,0.0,0.176,0.312,-6.935,0.056,124.044,0,4
+165,7uUahoeqGNRMbpdeiLj1rS,Panic Room,Panic Room,Au/Ra,2018-02-09,67,237772,0.495,0.152,0.426,5.65e-06,0.099,0.0636,-9.434,0.0736,97.91,8,4
+166,58HvfVOeJY7lUuCqF0m3ly,MIDDLE OF THE NIGHT,MIDDLE OF THE NIGHT,Elley Duhé,2020-01-10,75,184447,0.41,0.0228,0.611,0.0,0.116,0.0899,-8.271,0.0467,185.727,4,3
+167,0yLdNVWF3Srea0uzk55zFn,Flowers,Flowers,Miley Cyrus,2023-01-13,25,200454,0.707,0.0632,0.681,5.15e-06,0.0322,0.646,-4.325,0.0668,117.999,0,4
+168,4dh34dyav8M5jCN3yidn8Z,Big Weenie,Encore (Deluxe Version),Eminem,2004-11-12,62,266933,0.622,0.242,0.539,0.0,0.107,0.315,-4.331,0.502,173.662,1,4
+169,1KixkQVDUHggZMU9dUobgm,My Head & My Heart,Heaven & Hell,Ava Max,2020-09-18,70,174760,0.614,0.0697,0.934,0.0,0.121,0.436,-3.709,0.07,116.001,9,4
+170,6zBqlhWjEhNyH4Z8eUDzMT,Twinkle Twinkle,Twinkle Twinkle,Leah Kate,2022-06-24,0,156937,0.571,0.0151,0.854,0.0,0.251,0.6,-4.753,0.125,160.035,7,4
+171,2tGvwE8GcFKwNdAXMnlbfl,happier,SOUR,Olivia Rodrigo,2021-05-21,82,175933,0.395,0.765,0.443,9.67e-06,0.0839,0.338,-9.72,0.133,168.924,6,3
+172,42ydLwx4i5V49RXHOozJZq,Scars To Your Beautiful,Know-It-All (Deluxe),Alessia Cara,2016-03-11,68,230226,0.319,0.0285,0.739,0.0,0.111,0.449,-5.74,0.272,194.169,0,4
+173,3XF5xLJHOQQRbWya6hBp7d,you should see me in a crown,"WHEN WE ALL FALL ASLEEP, WHERE DO WE GO?",Billie Eilish,2019-03-29,76,180952,0.678,0.462,0.533,0.219,0.139,0.323,-10.485,0.186,150.455,4,4
+174,04aAxqtGp5pv12UXAg4pkq,Centuries,American Beauty/American Psycho,Fall Out Boy,2015-01-16,79,228360,0.393,0.00359,0.858,0.0,0.102,0.56,-2.868,0.0729,176.042,4,4
+175,1y4eb6hmAvsqlDOl3fx9kk,Hot N Cold,One Of The Boys,Katy Perry,2008-06-17,70,220226,0.706,7.73e-05,0.842,0.0,0.0688,0.861,-3.956,0.0417,132.032,7,4
+176,1Xi84slp6FryDSCbzq4UCD,Arcade,Arcade,Duncan Laurence,2019-03-07,73,183624,0.459,0.817,0.331,0.00104,0.135,0.271,-12.603,0.0421,72.023,9,3
+177,4TgyIbBZCW0UIwS8eua06z,Hate You,Hate You,Jordi,2022-11-18,51,176540,0.636,0.762,0.473,3.82e-06,0.152,0.399,-8.311,0.0389,87.034,0,4
+178,3S8jK1mGzQi24ilFb45DAZ,Lonely (with benny blanco),Justice,Justin Bieber,2021-03-19,74,149189,0.619,0.9,0.241,0.0,0.116,0.0719,-7.102,0.046,79.461,11,4
+179,3udCid1W2whR6CQrVpsKUh,Cinderella Snapped,Cinderella Snapped,Jax,2023-03-03,53,173103,0.752,0.0193,0.522,0.0,0.105,0.65,-5.993,0.0507,139.936,1,3
+180,5MAK1nd8R6PWnle1Q1WJvh,I See Red,I See Red,Everybody Loves an Outlaw,2018-10-31,72,230613,0.509,0.00713,0.448,0.0137,0.244,0.221,-7.552,0.0357,156.909,4,3
+181,2Ggr9IfS70wYQacW8nZKPG,labour,labour,Paris Paloma,2023-03-23,71,237744,0.65,0.396,0.574,0.000112,0.354,0.441,-10.3,0.101,83.963,11,4
+182,1zu2GKHPJIsUu80SUJX4H4,Devil Doesn’t Bargain,(Un)Commentary,Alec Benjamin,2022-04-15,69,163613,0.448,0.577,0.606,0.0,0.217,0.483,-4.565,0.0609,121.15,3,4
+183,3u1FiuSpfsgVnekEMXgMwJ,"Tag, You're It",Cry Baby (Deluxe Edition),Melanie Martinez,2015-08-14,72,189026,0.559,0.24,0.835,0.019,0.185,0.382,-5.555,0.0424,114.908,5,4
+184,1P17dC1amhFzptugyAO7Il,Look What You Made Me Do,reputation,Taylor Swift,2017-11-10,79,211853,0.766,0.204,0.709,1.41e-05,0.126,0.506,-6.471,0.123,128.07,9,4
+185,0aU73DSJXOwjzMakUhlL9t,Just a Friend,Just a Friend,Jordi,2023-08-25,50,141147,0.785,0.0499,0.653,0.0,0.0899,0.589,-6.464,0.199,89.99,2,4
+186,6yARPLK0PV4heEyh7pVMGz,Part Of Me,Teenage Dream: The Complete Confection,Katy Perry,2012-01-01,70,216160,0.666,0.000348,0.922,0.0,0.0867,0.758,-4.645,0.0352,130.007,5,4
+187,04ZTP5KsCypmtCmQg5tH9R,I'm a Mess,Expectations,Bebe Rexha,2018-06-22,68,195519,0.63,0.00281,0.694,0.0,0.0719,0.216,-6.257,0.0253,97.005,11,4
+188,2qxmye6gAegTMjLKEBoR3d,Let Me Down Slowly,Narrated For You,Alec Benjamin,2018-11-16,83,169353,0.652,0.74,0.557,0.0,0.124,0.483,-5.714,0.0318,150.073,1,4
+189,3k79jB4aGmMDUQzEwa46Rz,vampire,vampire,Olivia Rodrigo,2023-06-30,16,219724,0.484,0.148,0.53,0.0,0.283,0.319,-5.82,0.054,136.874,5,4
+190,6cPh0IceWYeMEeYmbSgIMG,Pretty Distraction,Pretty Distraction,SkyDxddy,2023-09-08,54,175813,0.468,0.113,0.45,0.0,0.089,0.448,-7.981,0.0322,172.038,6,3
+191,2IGMVunIBsBLtEQyoI1Mu7,Paint The Town Red,Paint The Town Red,Doja Cat,2023-08-04,79,231750,0.868,0.269,0.538,3.34e-06,0.0901,0.732,-8.603,0.174,99.968,5,4
+192,2gyxAWHebV7xPYVxqoi86f,get him back!,GUTS,Olivia Rodrigo,2023-09-08,76,211141,0.553,0.0143,0.847,0.0,0.561,0.733,-5.736,0.187,162.024,5,4
+193,4kkeuVl6gF3RMqE4Nn5W3E,E.T.,Teenage Dream,Katy Perry,2010-01-01,64,206373,0.603,0.0178,0.863,0.0,0.389,0.731,-5.423,0.0773,150.054,5,4
+194,0XqQxKtAdYbOC8OVIjWLZD,Dancing With The Devil,Dancing With The Devil…The Art of Starting Over,Demi Lovato,2021-04-02,47,243992,0.413,0.273,0.64,0.0,0.11,0.149,-5.811,0.0427,75.245,8,4
+195,0pXUVMtPaFDghiBgDs6U1f,My Problem,My Problem,Jordi,2023-10-27,48,146932,0.798,0.243,0.583,0.0,0.151,0.737,-5.547,0.0989,74.476,0,4
+196,3QSjVPObHxuAJc3E5nrjRn,VILLAIN,ALL OUT,K/DA,2020-11-06,68,199125,0.653,0.0232,0.634,0.0,0.0908,0.306,-5.875,0.0391,160.013,5,4
+197,63mdJr3NMY3wReOkNE6c6W,People You Know,Rare,Selena Gomez,2020-01-10,73,194900,0.695,0.0881,0.62,5.43e-05,0.111,0.619,-8.082,0.0521,150.032,8,4
+198,6dgUya35uo964z7GZXM07g,Nonsense,emails i can't send,Sabrina Carpenter,2022-07-15,87,163648,0.74,0.0268,0.697,0.0,0.224,0.732,-4.912,0.034,138.992,8,4
+199,7aonAWn0J0AJ47ZU9WHCXC,INFERNO,INFERNO,Sub Urban,2021-08-13,59,133133,0.82,0.0766,0.611,2.5e-05,0.0684,0.637,-5.02,0.122,127.883,9,4
+200,7gvd8xj4QgPqbQSsn5pV7d,Sorry Not Sorry,Tell Me You Love Me (Deluxe),Demi Lovato,2017-09-29,1,203760,0.705,0.0237,0.64,0.0,0.262,0.887,-6.928,0.225,144.077,11,4
+201,1EQFOouqdKYdpbNoOHRVO2,abcdefu (angrier),abcdefu (angrier),GAYLE,2021-09-24,62,159836,0.671,0.0658,0.599,0.0,0.101,0.448,-6.18,0.0405,121.849,4,3
+202,50yHVBbU6M4iIfqBI1bxWx,Rumour Has It,21,Adele,2011-01-19,0,223266,0.612,0.617,0.748,0.0,0.167,0.574,-5.014,0.0445,120.052,0,4
+203,32BeYxKPrig1LefHsC0Xuo,Happier Than Ever - Edit,Happier Than Ever (Edit),Billie Eilish,2021-07-28,69,151444,0.334,0.0468,0.599,0.000392,0.205,0.127,-5.742,0.0365,161.74,0,3
+204,6SRsiMl7w1USE4mFqrOhHC,brutal,SOUR,Olivia Rodrigo,2021-05-21,76,143746,0.672,0.0311,0.526,1.37e-06,0.28,0.28,-6.446,0.0599,123.999,4,4
+205,6PERP62TejQjgHu81OHxgM,good 4 u,good 4 u,Olivia Rodrigo,2021-05-14,17,178147,0.556,0.3,0.661,0.0,0.101,0.668,-5.052,0.204,168.56,6,4
+206,0VwNdo84DaVYLIkbVO86ND,We Are Never Ever Getting Back Together,Red (Big Machine Radio Release Special),Taylor Swift,2012-10-22,69,193146,0.628,0.00957,0.676,2.65e-05,0.121,0.75,-5.911,0.0916,85.984,7,4
+207,6nhvIZeu7g6OsDCLj1DKLl,Tell Me Something I Don't Know,Kiss & Tell,Selena Gomez & The Scene,2009-01-01,51,175333,0.71,0.14,0.935,0.0,0.0593,0.914,-3.339,0.193,145.063,7,4
+208,6zegtH6XXd2PDPLvy1Y0n2,Don’t Call Me Angel (Charlie’s Angels) (with Miley Cyrus & Lana Del Rey),Charlie's Angels (Original Motion Picture Soundtrack),Various Artists,2019-11-01,67,190066,0.644,0.00243,0.755,8.55e-06,0.0859,0.351,-5.325,0.0449,102.854,1,4
+209,0hPuF2Z5fZjnuwYPvIdPC1,Really Don't Care,Demi,Demi Lovato,2013-01-01,0,201600,0.703,0.111,0.733,0.0,0.119,0.82,-3.598,0.0852,121.008,7,4
+210,76cy1WJvNGJTj78UqeA5zr,IDGAF,Dua Lipa (Deluxe),Dua Lipa,2017-06-02,77,217946,0.836,0.0403,0.544,0.0,0.0824,0.51,-5.975,0.0943,97.028,7,4
+211,1pwo8l3Ko7idwaz4LVUEC4,Shout Out to My Ex,Glory Days: The Platinum Edition,Little Mix,2017-11-24,0,246240,0.773,0.0239,0.747,8.23e-06,0.11,0.8,-4.061,0.0889,126.014,5,4
+212,0NTMtAO2BV4tnGvw9EgBVq,Bitch Better Have My Money,Bitch Better Have My Money,Rihanna,2015-03-26,73,219305,0.781,0.0509,0.728,1.94e-06,0.257,0.395,-4.981,0.0621,102.99,1,4
+213,6ZANrVuAMp2rpjhfbOuJly,Same Old Love,Revival (Deluxe),Selena Gomez,2015-10-09,68,229080,0.672,0.0223,0.593,0.0,0.214,0.438,-4.01,0.0304,98.02,11,4
+214,6xsEAm6w9oMQYYg3jkEkMT,Bad Blood,Bad Blood,Taylor Swift,2015-05-17,64,200106,0.654,0.0294,0.655,0.0,0.139,0.221,-7.388,0.106,170.16,11,4
+215,005lwxGU1tms6HGELIcUv9,I Kissed A Girl,One Of The Boys,Katy Perry,2008-06-17,69,179640,0.702,0.00226,0.76,0.0,0.132,0.696,-3.174,0.0684,129.996,5,4
+216,15og0pCEcTFWEXOFKdcJlU,Hate Me,Brightest Blue,Ellie Goulding,2020-07-16,72,188066,0.64,0.0875,0.789,0.0,0.147,0.762,-4.891,0.0644,75.018,8,4
+217,3e9HZxeyfWwjeyPAMmWSSQ,"thank u, next","thank u, next",Ariana Grande,2019-02-08,78,207320,0.72,0.227,0.654,0.0,0.101,0.411,-5.634,0.0647,106.976,1,4
+218,4XE98WRGbBGRZ7jQ9wIwFt,Fuck You,"It's Not Me, It's You (Special Edition)",Lily Allen,2008-12-02,59,219893,0.775,0.0271,0.904,0.000303,0.06,0.84,-4.08,0.0437,130.009,1,4
+219,0ErK6K0kYr0Ow2RkPMhmMs,Shout Out to My Ex,Glory Days (Expanded Edition),Little Mix,2016-11-18,70,246240,0.773,0.0242,0.747,8.99e-06,0.109,0.801,-4.061,0.0885,126.014,5,4
+220,2sEk5R8ErGIFxbZ7rX6S2S,How to Be a Heartbreaker,Electra Heart (Deluxe),MARINA,2012-04-27,67,221493,0.69,0.0142,0.897,0.0,0.108,0.849,-4.696,0.0506,140.05,11,4
+221,1R0a2iXumgCiFb7HEZ7gUE,Don’t Blame Me,reputation,Taylor Swift,2017-11-10,83,236413,0.615,0.106,0.534,1.76e-05,0.0607,0.193,-6.719,0.0386,135.917,9,4
+222,5WHTFyqSii0lmT9R21abT8,Don't Call Me Up,Ivy To Roses (Mixtape),Mabel,2019-01-18,71,178480,0.674,0.296,0.881,3.01e-06,0.0793,0.234,-2.853,0.147,98.994,9,4
+223,76Tuo484SLohJakHLnGI3B,Sweet Melody,Confetti,Little Mix,2020-11-06,59,213693,0.448,0.0739,0.824,0.0,0.113,0.419,-4.249,0.057,119.965,5,4
+224,6UtHBJDGixsNioxZkzNTdJ,Sociopath,Sociopath,Olivia O'Brien,2021-04-09,0,153500,0.719,0.0185,0.698,0.0,0.0426,0.292,-6.297,0.245,132.914,7,4
+225,5vTPxzm4h2bY9rYyVrGEU5,Really Don't Care,Demi,Demi Lovato,2013-01-01,68,201600,0.706,0.123,0.728,0.0,0.185,0.851,-3.602,0.0852,121.017,7,4
+226,017PF4Q3l4DBUiWoXk4OWT,Break My Heart,Future Nostalgia,Dua Lipa,2020-03-27,74,221820,0.73,0.167,0.729,1.39e-06,0.349,0.467,-3.434,0.0884,113.011,4,4
+227,1u8c2t2Cy7UBoG4ArRcF5g,Blank Space,1989 (Deluxe),Taylor Swift,2014-01-01,79,231826,0.76,0.103,0.703,0.0,0.0913,0.57,-5.412,0.054,95.997,5,4
+228,6LOZws7T3jqZz78unPgFF9,Dead To Me,Isolation,Kali Uchis,2018-04-06,73,199505,0.675,0.432,0.761,0.0,0.102,0.428,-4.469,0.0466,119.001,4,4
+229,3h3pOvw6hjOvZxRUseB7h9,i wanna be your girlfriend,i wanna be your girlfriend,girl in red,2018-03-02,1,204990,0.54,0.0217,0.381,0.000687,0.305,0.343,-14.323,0.0347,155.882,7,4
+230,043dDJ9u0PQ3ooAXMgcwOe,MOOO!,Amala (Deluxe Version),Doja Cat,2019-03-01,56,285053,0.869,0.517,0.532,0.0,0.103,0.509,-7.186,0.23,89.004,7,4
+231,7FGIEAVXfegxngH9Jg6VwA,What A Shame,What A Shame,Leyla Blue,2020-12-09,59,177200,0.699,0.315,0.463,0.0,0.0803,0.565,-7.828,0.475,143.99,0,4
+232,12KUFSHFgT0XCoiSlvdQi4,Break Free,My Everything (Deluxe),Ariana Grande,2014-08-22,75,214840,0.686,0.00637,0.702,4.46e-05,0.204,0.29,-5.325,0.0455,129.948,7,4
+233,4svZDCRz4cJoneBpjpx8DJ,I Did Something Bad,reputation,Taylor Swift,2017-11-10,74,238253,0.696,0.0679,0.602,2.11e-05,0.0696,0.305,-6.156,0.159,82.989,0,4
+234,6EMWT7sZBvG0oxdh9KXbb4,Juice,Cuz I Love You (Deluxe),Lizzo,2019-05-03,32,195144,0.767,0.00611,0.889,0.0,0.402,0.843,-2.988,0.0963,119.93,7,4
+235,3DXXKDbbZKyAZfNb96ST3q,Confident,Confident,Demi Lovato,2015-01-01,69,205745,0.594,0.00188,0.749,0.000139,0.0869,0.344,-6.251,0.0677,130.064,3,4
+236,3l3KNYbuDBpM9YBo878utU,Care Less More,Was It Even Real?,Olivia O'Brien,2019-04-26,35,176480,0.746,0.621,0.408,0.0,0.125,0.745,-8.307,0.277,128.165,5,4
+237,7ySUcLPVX7KudhnmNcgY2D,S&M,Loud (Japan Version),Rihanna,2010-01-01,81,243600,0.769,0.0105,0.685,0.000124,0.0887,0.836,-5.019,0.041,127.977,1,4
+238,35PLIvgitn0IviuJJr4jlK,Liar - Single Version,Liar,Davina Michelle,2020-11-20,32,241026,0.473,0.0757,0.546,0.0,0.139,0.147,-7.519,0.0373,74.964,3,4
+239,3W3KtDwAIg3mAruSpnfG3Q,Fancy,The New Classic (Deluxe Version),Iggy Azalea,2014-01-01,68,199938,0.912,0.0904,0.716,0.0,0.0491,0.377,-4.141,0.0698,94.981,10,4
+240,2vwlzO0Qp8kfEtzTsCXfyE,Wrecking Ball,Bangerz (Deluxe Version),Miley Cyrus,2013-10-04,78,221360,0.53,0.407,0.422,0.0,0.107,0.349,-6.262,0.0342,119.964,5,4
+241,54bFM56PmE4YLRnqpW6Tha,Therefore I Am,Therefore I Am,Billie Eilish,2020-11-12,69,174321,0.889,0.218,0.34,0.13,0.055,0.716,-7.773,0.0697,94.009,11,4
+242,2vDH0r4FU75wEivLDZcvze,Therapist,Therapist,Mae Muller,2020-01-23,42,183726,0.61,0.136,0.473,0.0,0.0828,0.528,-8.433,0.389,183.926,9,4
+243,4wH4dJgrsxONID6KS2tDQM,Maneater,Loose,Nelly Furtado,2006-01-01,81,258893,0.796,0.0258,0.778,0.000386,0.121,0.789,-4.81,0.0397,132.724,6,4
+244,5tAa8Uaqr4VvA3693mbIhU,Ruin My Life,Ruin My Life,Zara Larsson,2018-10-18,60,190931,0.665,0.423,0.699,0.0,0.0969,0.585,-5.265,0.0578,124.896,11,4
+245,2xdwCJLfKCkat14mlgR26M,Lost Cause,Lost Cause,Billie Eilish,2021-06-02,0,212496,0.671,0.705,0.336,0.00751,0.0577,0.518,-8.494,0.241,75.051,10,4
+246,3XF5xLJHOQQRbWya6hBp7d,you should see me in a crown,"WHEN WE ALL FALL ASLEEP, WHERE DO WE GO?",Billie Eilish,2019-03-29,76,180952,0.678,0.462,0.533,0.219,0.139,0.323,-10.485,0.186,150.455,4,4
+247,5OCJzvD7sykQEKHH7qAC3C,God is a woman,Sweetener,Ariana Grande,2018-08-17,74,197546,0.602,0.0233,0.658,6e-05,0.237,0.268,-5.934,0.0558,145.031,1,4
+248,2r6DdaSbkbwoPzuK6NjLPn,Can't Be Tamed,Can't Be Tamed,Miley Cyrus,2010-01-01,60,168213,0.63,0.0287,0.91,0.0,0.196,0.743,-2.919,0.144,116.98,11,4
+249,1nInOsHbtotAmEOQhtvnzP,Stronger (What Doesn't Kill You),Stronger (Deluxe Version),Kelly Clarkson,2011-10-24,72,221946,0.562,0.046,0.939,0.0,0.112,0.684,-4.282,0.0475,116.044,0,4
+250,6FB3v4YcR57y4tXFcdxI1E,I Knew You Were Trouble.,Red (Big Machine Radio Release Special),Taylor Swift,2012-10-22,75,219720,0.622,0.00454,0.469,2.25e-06,0.0335,0.679,-6.798,0.0363,77.019,3,4
+251,3QTDzwSkRW04FVPo6COm0H,You're Such A,HAIZ,Hailee Steinfeld,2016-02-26,53,216333,0.62,0.00798,0.696,1e-06,0.113,0.705,-6.323,0.0997,176.028,11,4
+252,1H3Okhf16ttAICZF7zgDko,killing boys,Manic,Halsey,2020-01-17,47,143364,0.685,0.248,0.899,0.000107,0.376,0.686,-5.796,0.186,139.997,11,4
+253,0JiY190vktuhSGN6aqJdrt,So What,Funhouse (Expanded Edition),P!nk,2008-10-24,75,215160,0.534,0.000334,0.87,0.0,0.241,0.462,-3.078,0.0425,126.019,11,4
+254,3WVhkjB7Y4xFruqoCAajBb,Sue Me,Singular Act I,Sabrina Carpenter,2018-11-09,69,179226,0.46,0.0422,0.809,5.04e-05,0.138,0.609,-5.415,0.326,157.184,6,4
+255,3pU3mRumn5rWii1rKNu1eV,Bulletproof,La Roux,La Roux,2009,2,205733,0.674,0.000441,0.882,6.47e-05,0.068,0.682,-2.771,0.0477,123.016,3,4
+256,2a1MrtxYybqFV1Ow8VJ1dW,I Will Survive - Rerecorded,I Will Survive (Rerecorded),Gloria Gaynor,1982-01-01,52,250887,0.672,0.00314,0.751,0.0,0.0796,0.57,-7.977,0.05,120.044,9,4
+257,3YmgsYX80v0EtBZekgcB6w,BOYSHIT,BOYSHIT,Madison Beer,2020-12-11,48,160397,0.638,0.0203,0.699,0.0,0.0879,0.57,-6.542,0.0892,121.122,1,4
+258,01BC4Xj5tfsfV8DLDrma7q,Ciao Adios,Speak Your Mind (Deluxe),Anne-Marie,2018-04-27,62,199773,0.694,0.136,0.853,0.0,0.322,0.501,-3.986,0.0934,106.098,7,4
+259,3U3BXlwNTkCx7lW9m1H9RY,Hard out Here,Hard out Here,Lily Allen,2013-11-17,50,211377,0.823,0.113,0.822,4.57e-05,0.0688,0.938,-5.323,0.0334,125.026,1,4
+260,71vsEyBd4X1D5BUmLdFSVH,Black Widow,The New Classic,Iggy Azalea,2014-01-01,65,209423,0.74,0.188,0.72,0.000386,0.109,0.512,-3.753,0.158,164.014,3,4
+261,1Bx0zEdVjkFlV27iKaePug,Man Down,Loud,Rihanna,2010-11-16,69,267000,0.47,0.0436,0.904,0.0,0.0491,0.557,-4.024,0.177,155.789,0,4
+262,2Mpj1Ul5OFPyyP4wB62Rvi,Survivor,Survivor,Destiny's Child,2001-05-01,67,254026,0.514,0.0559,0.911,0.0,0.775,0.619,-2.027,0.41,161.109,1,4
+263,4y1LsJpmMti1PfRQV9AWWe,Girls Just Want to Have Fun,She's So Unusual,Cyndi Lauper,1983-10-14,81,238266,0.71,0.22,0.799,0.000602,0.349,0.725,-4.897,0.0328,120.372,6,4
+264,4i55R0S2I64mhS5biNbECZ,Me & My Girls,Revival (Deluxe),Selena Gomez,2015-10-09,51,210506,0.637,0.0152,0.947,0.0,0.0595,0.348,-3.982,0.152,121.993,2,4
+265,6JqpFboOH2bq9pzaYbkKBn,R.I.P. (feat. Rita Ora & Anitta),R.I.P. (feat. Rita Ora & Anitta),Sofía Reyes,2019-03-15,52,187200,0.764,0.18,0.752,0.0,0.0701,0.698,-3.713,0.0711,100.066,8,4
+266,3KliPMvk1EvFZu9cvkj8p1,Work Bitch,Britney Jean (Deluxe Version),Britney Spears,2013-11-30,67,247960,0.629,0.155,0.824,0.000628,0.0651,0.852,-6.53,0.159,128.01,9,4
+267,1eYTh99yjJtpiJT94ThYpq,Stop in the Name of Love,I Will Survive,Gloria Gaynor,1981,25,250266,0.824,0.0484,0.636,0.0,0.0928,0.615,-10.572,0.12,118.25,11,4
+268,5RhFmJifQe83FpQ6ZFFTZ5,"I am not a woman, I'm a god","If I Can’t Have Love, I Want Power",Halsey,2021-08-27,54,176413,0.523,0.00397,0.702,0.0325,0.063,0.494,-6.74,0.0462,179.992,6,4
+269,2wjTTRCmCeaNrpFG4YVsFy,É Por Isso Que Sofre,É Por Isso Que Sofre,Dj Batata,2021-11-19,42,164307,0.921,0.382,0.889,0.00138,0.0801,0.769,-5.152,0.0955,130.042,1,4
+270,5eqiMMbaeUZ32Q7sS00H35,Anaconda,The Pinkprint (International Deluxe Explicit),Nicki Minaj,2014-12-12,65,260239,0.964,0.0668,0.605,7.78e-06,0.214,0.646,-6.223,0.179,129.996,9,4
+271,1yCrrZwlYPS3AqQHsJvFlu,You're Not Harry Styles,You're Not Harry Styles,Dylan,2021-11-26,0,176530,0.553,0.00681,0.767,2.95e-06,0.0903,0.669,-4.557,0.0741,165.059,6,4
+272,6tsOcBnaKgzK22yEiqRh8P,MONOPOLY (with Victoria Monét),MONOPOLY,Ariana Grande,2019-04-01,58,158586,0.893,0.702,0.507,3.14e-05,0.109,0.695,-8.282,0.378,143.969,0,4
+273,5HwnezK198pJCEj1l2Adjy,She Loves Control,Camila,Camila Cabello,2018-01-12,54,177160,0.65,0.166,0.758,0.0,0.0889,0.663,-4.02,0.116,94.9,2,4
+274,480o64VmNvWcwzCg74VUxW,Tremendo Vacilão,Eu Só Quero Ser Livre,Perlla,2006-05-15,52,224026,0.866,0.0688,0.861,0.0166,0.065,0.953,-3.77,0.042,129.005,4,4
+275,4fixebDZAVToLbUCuEloa2,Womanizer,Circus (Deluxe Version),Britney Spears,2008-12-02,77,224400,0.724,0.073,0.695,0.0,0.0889,0.235,-5.226,0.0622,139.0,11,4
+276,3Vi5XqYrmQgOYBajMWSvCi,Need to Know,Planet Her,Doja Cat,2021-06-25,75,210560,0.664,0.304,0.609,0.0,0.0926,0.194,-6.509,0.0707,130.041,1,4
+277,26NX1wPt1TRCH536yocd6i,If I Were a Boy,I AM...SASHA FIERCE,Beyoncé,2008-11-14,63,249146,0.632,0.107,0.518,0.0,0.354,0.427,-6.126,0.0313,90.007,6,4
+278,2K9vpqu9c7a1NI2XZ836WP,Rip Her to Shreds,Mean Girls (Original Motion Picture Soundtrack),Various Artists,2004-01-01,4,247133,0.68,0.0283,0.942,4.09e-05,0.249,0.963,-4.449,0.0426,120.014,4,4
+279,3IcIIZMMS7UArJJPtEHXG8,Obsessed,Memoirs of an imperfect Angel,Mariah Carey,2009-09-29,68,242200,0.742,0.0458,0.467,0.0,0.826,0.366,-5.557,0.0624,86.442,10,4
+280,6IbnUaczZBT34DhaD6S18F,Bubblegum Bitch,Electra Heart (Deluxe),MARINA,2012-04-27,74,154666,0.495,0.000219,0.856,0.0,0.103,0.609,-5.123,0.0311,158.024,0,4
+281,5lAnYvAIkSDNXqfo7DyFUm,Ain't Shit,Planet Her,Doja Cat,2021-06-25,73,174253,0.855,0.506,0.488,0.0,0.347,0.619,-4.601,0.208,124.097,3,4
+282,6eqBr4nAQCVIbUbE8IBDP1,i don’t really like your boyfriend,i don’t really like your boyfriend,Avenue Beat,2020-05-22,34,162220,0.81,0.352,0.438,0.0,0.0639,0.803,-6.746,0.0677,94.991,1,4
+283,1Oi2zpmL81Q0yScF1zxaC0,"Bills, Bills, Bills",The Writing's On The Wall,Destiny's Child,1999-07-27,68,256026,0.845,0.139,0.576,0.0,0.0764,0.461,-5.15,0.153,127.641,11,4
+284,53yWQ1FObrwPlVYCZdR6es,Liar,Liar,BigKlit,2019-07-23,42,146526,0.883,0.339,0.492,0.0,0.166,0.59,-12.118,0.354,94.959,7,4
+285,1RDNH7V9Odx6gOZJ4Siehj,How to Be a Heartbreaker,How to Be a Heartbreaker,MARINA,2012-12-07,32,221493,0.69,0.0142,0.897,0.0,0.108,0.849,-4.696,0.0506,140.05,11,4
+286,5w1ggxiUnlt6lNP6pzGaIO,boys r dumb! duh!,yikes!,Sophie Cates,2019-10-02,0,179008,0.666,0.295,0.505,0.0,0.162,0.29,-6.176,0.0836,147.98,4,4
+287,1KGi9sZVMeszgZOWivFpxs,No Scrubs,Fanmail,TLC,1999-02-23,82,214400,0.743,0.0251,0.675,0.000717,0.0685,0.59,-4.267,0.0953,92.909,8,4
+288,77o1HdXHm1hLd7Ebe9ygd0,THAT BITCH,THAT BITCH,Bea Miller,2019-11-01,60,201101,0.778,0.0103,0.738,0.0,0.55,0.626,-2.164,0.218,162.132,2,4
+289,2MZsEkfaIhXxdYj7P313UZ,Dollar Euro - EVEHIVE Remix,Dollar Euro (EVEHIVE Remix),Tassia Reis,2020-08-21,0,206783,0.944,0.056,0.636,9.76e-06,0.0648,0.53,-7.736,0.322,130.038,0,4
+290,2XWusA74Rg68E23sVOfBlK,Man's World,Man's World,MARINA,2020-11-18,0,207226,0.496,0.401,0.709,0.0,0.0718,0.226,-5.684,0.0307,110.078,5,4
+291,049V1aSofNvW906vGZgFsD,Get On Your Knees,The Pinkprint (Deluxe),Nicki Minaj,2014-12-15,40,216493,0.654,0.31,0.445,0.0,0.116,0.175,-7.182,0.0412,144.014,0,4
+292,02b5L9jExmkRTdUTqXFzmR,Primadonna,Electra Heart,MARINA,2012-04-27,40,221075,0.66,0.0884,0.689,0.0,0.0922,0.427,-2.671,0.0337,127.98,4,4
+293,0AUvWawuP0ibk4SQ3sIZjk,Daisy,Daisy,Ashnikko,2020-07-09,61,146523,0.834,0.235,0.663,0.0,0.372,0.774,-6.143,0.133,121.876,8,4
+294,340UVheS8z3ncW9TTUhAbc,Nightmare,Nightmare,Halsey,2019-05-17,60,231998,0.607,0.0187,0.622,0.0,0.359,0.537,-5.075,0.0756,146.105,9,4
+295,06Lp0gsTyJU3vsvZTBpzHn,Meaner Girl,Meaner Girl,Anna Sofia,2019-04-12,0,193247,0.547,0.819,0.358,0.0,0.108,0.314,-7.738,0.0482,164.085,10,4
+296,5EzL7hGT9g2Tvqsy158Lu9,Pussy Talk,City On Lock,City Girls,2020-06-20,57,218332,0.943,0.0016,0.641,0.0,0.211,0.242,-5.598,0.191,99.099,1,4
+297,4pAl7FkDMNBsjykPXo91B3,Needed Me,ANTI (Deluxe),Rihanna,2016-01-28,81,191600,0.697,0.11,0.315,0.0,0.0825,0.298,-8.091,0.234,110.872,5,4
+298,36phXHOKx8rO7CMp2vNX4x,Love Myself,HAIZ,Hailee Steinfeld,2016-02-26,65,218773,0.617,0.0026,0.759,0.0,0.419,0.324,-6.785,0.0678,122.924,0,4
+299,4ka1FkKAMde6dQAFFMXKac,i hope ur miserable until ur dead,i hope ur miserable until ur dead,Nessa Barrett,2021-08-06,65,177582,0.706,0.0273,0.544,0.0,0.087,0.477,-7.275,0.0306,115.935,2,4

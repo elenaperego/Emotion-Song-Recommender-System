@@ -130,6 +130,6 @@ def get_recommended_song_list(user_name, user_recognition, songs, sp):
 
 # test
 sp = authenticate(client_id, client_secret)
-songs = get_songs(sp, 300, 'when+you+are+surprised')
+songs = get_songs(sp, 300, 'when+you+are+disgusted')
 data = create_table_songs(sp, songs)
-data.to_csv('when-surprised.csv')
+data.to_csv('when-disgusted.csv')
