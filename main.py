@@ -14,12 +14,9 @@ import dlib
 import pandas as pd
 
 
-# Ele's client ID
-client_id = '6e1a09c940a943da95144c6f49a0717b'
-client_secret = 'ccc2af43075641f9899eaaac5b716b8b'
 
-sp = gs.authenticate(client_id, client_secret)
 allowed_margin_to_change_song = 60 # amount in seconds
+passwords = {'Elena':{'client_id': 'ca5e1837d17442e1b5c842377539f4fb', 'client_secret': 'c97c23c09b7948b4b4f4025a08a15a39'}}
 
 binary_to_emotion = { 0 : 'Sad', 1 : 'Calm', 2 :  'Energetic', 3 : 'Happy' }
 emotion_to_binary = { 'angry' : 2, 'disgust' : 0, 'fear' : 1, 'happy' : 3, 'sad' : 0, 'surprise' : 2, 'neutral' : 1}
@@ -63,8 +60,12 @@ if __name__ == "__main__":
     user_name = user_recognition.get_user_name(image)
     st.header("Welcome back "+user_name)
 
+    sp = gs.authenticate(passwords[user_name]['client_id'], passwords[user_name]['client_secret'])
+
+    print('here')
     # Get random song
-    data = gs.get_recommended_song_list(user_name, user_recognition, songs, sp)
+    data = gs.get_recommended_song_list(songs, sp)
+    print('here1')
 
     current_song = gs.filter_closest_tempo(data, current_song)
     
@@ -100,16 +101,11 @@ if __name__ == "__main__":
             print("EMOTION ",current_emotion)
     
             # get songs based on preference
-            data = gs.get_recommended_song_list(user_name, user_recognition, songs, sp)
+            data = gs.get_recommended_song_list(songs, sp)
 
             # Classify on emotion with model (NN or RF) taking into account the current dominant emotion
             # returns a df of songs matching the two possible emotion
             filtered_data = model_library.predict_emotions_nn(data,binary_emotion)
-
-
-            # Filter/Order on sad or calm = speechiness --> high speechiness = sad, energetic and happy = loudness --> high loudness = energetic
-            # returns data in a df of songs matching emotion with a filter of < 0.5 based on the emotion
-            data = gs.filter_emotion(data, current_emotion)
 
             # returns next song recommendation 
             current_song = gs.filter_closest_tempo(data, current_song)
