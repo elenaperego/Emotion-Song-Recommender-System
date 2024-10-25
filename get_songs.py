@@ -32,25 +32,17 @@ def get_songs_from_playlist_query(sp, number_of_songs, query):
 def get_songs_from_personal_playlist(sp):
     top_tracks = sp.current_user_top_tracks(limit=50, offset=0)
     songs = []
-    
-    print(f"Number of items: {len(top_tracks['items'])}")
-    
-    for item in top_tracks['items']:
-        # Use .get() to avoid KeyError if 'track' doesn't exist
-        track = item.get('track', item)  # Default to the item itself if 'track' key is missing
 
-        # Check if 'track' is indeed a track object
-        if isinstance(track, dict):
-            songs.append(track)
-        else:
-            print(f"Skipping item, as it's not a track: {item}")
+    print(f"Number of items: {len(top_tracks['items'])}")
+    for item in top_tracks['items']:
+        songs.append(item)
     
     return songs
 
+
 def create_table_songs(sp, songs):
     tracks = []
-    for song in songs:
-        track = song.get('track')
+    for track in songs:
 
         # Check if track is not None
         if track is None:
@@ -117,8 +109,6 @@ def filter_closest_tempo(df_songs, cur_song):
     next_song = best_rec.sort_values(by='popularity', ascending=False).iloc[0]
 
     return next_song
-
-
 
 def filter_emotion(data, emotion):
     scaler = StandardScaler()

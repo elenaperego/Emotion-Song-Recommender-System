@@ -16,7 +16,7 @@ import pandas as pd
 
 
 allowed_margin_to_change_song = 60 # amount in seconds
-passwords = {'Vito':{'client_id': 'ca5e1837d17442e1b5c842377539f4fb', 'client_secret': 'c97c23c09b7948b4b4f4025a08a15a39'}}
+passwords = {'Elena':{'client_id': 'ca5e1837d17442e1b5c842377539f4fb', 'client_secret': 'c97c23c09b7948b4b4f4025a08a15a39'}}
 
 binary_to_emotion = { 0 : 'Sad', 1 : 'Calm', 2 :  'Energetic', 3 : 'Happy' }
 emotion_to_binary = { 'angry' : 2, 'disgust' : 0, 'fear' : 1, 'happy' : 3, 'sad' : 0, 'surprise' : 2, 'neutral' : 1}
